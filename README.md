@@ -184,7 +184,7 @@ This code is released under the MIT License. See `LICENSE` for the full text. Us
 
 If you use this pipeline, please cite:
 
-> Roberts, C. et al. *Hierarchical, Interactive, and Dynamic Predictive Capacity of Current Biopsychosocial Measures in Depression, Anxiety, Social Relationships, ADHD, and Cognition.* (Submitted). Zenodo DOI: *[to be inserted upon acceptance]*.
+> Roberts, C. et al. *Psychiatry and Its Hierarchical & Dynamic Discontents: Biopsychosocial Prediction in Depression, Anxiety, ADHD, Social Relationships, and Cognition.* (Submitted). Zenodo DOI: *[to be inserted upon acceptance]*.
 
 ## Contributors
 
