@@ -1,0 +1,1608 @@
+variable,abcd_table,abcd_variable,label
+sex,abcd_p_demo,demo_sex_v2,
+parent_income,abcd_p_demo,demo_comb_income_v2,Par. Income
+gd_safebets,nc_y_gdt,gdt_scr_values_safe,Safe Bets (GDT)
+gd_riskybets,nc_y_gdt,gdt_scr_values_risky,Game of Dice Task -- Risky Bets
+cct,nc_y_cct,cash_choice_task,Cash Choice
+tb_picvocab,nc_y_nihtb,nihtbx_picvocab_agecorrected,Picture Vocabulary Task (NIH)
+tb_flanker,nc_y_nihtb,nihtbx_flanker_agecorrected,Flanker Inhibitory Control Task (NIH)
+tb_list,nc_y_nihtb,nihtbx_list_agecorrected,List Sorting Working Memory Task (NIH)
+tb_cardsort,nc_y_nihtb,nihtbx_cardsort_agecorrected,Dimensional Change Card Sort Task (NIH)
+tb_pattern,nc_y_nihtb,nihtbx_pattern_agecorrected,Pattern Comparison Speed Task (NIH)
+tb_picture,nc_y_nihtb,nihtbx_picture_agecorrected,Picture Sequence Memory Task (NIH)
+tb_reading,nc_y_nihtb,nihtbx_reading_agecorrected,Oral Reading Recognition Task (NIH)
+tb_fluid,nc_y_nihtb,nihtbx_fluidcomp_agecorrected,Fluid Intelligence
+tb_cryst,nc_y_nihtb,nihtbx_cryst_agecorrected,Crystallized Composite (NIH)
+tb_total,nc_y_nihtb,nihtbx_totalcomp_agecorrected,
+ravlt_s_total,nc_y_ravlt,pea_ravlt_sd_listb_tc,RAVLT Short Tot.
+ravlt_s_repitition,nc_y_ravlt,pea_ravlt_sd_listb_tr,RAVLT Short Rep.
+ravlt_s_intrusions,nc_y_ravlt,pea_ravlt_sd_listb_ti,RAVLT Short Intr.
+ravlt_l_total,nc_y_ravlt,pea_ravlt_ld_trial_vii_tc,RAVLT Long Tot.
+ravlt_l_repitition,nc_y_ravlt,pea_ravlt_ld_trial_vii_tr,RAVLT Long Rep.
+ravlt_l_intrusions,nc_y_ravlt,pea_ravlt_ld_trial_vii_ti,RAVLT Long Intr.
+mr_total,nc_y_wisc,pea_wiscv_tss,Matrix Reasoning Total
+mr_matrix,nc_y_wisc,pea_wiscv_item_a_rs,Matrix Reasoning
+mr_serial,nc_y_wisc,pea_wiscv_item_b_rs,
+nb_acceptable_performance,mri_y_tfmr_nback_beh,tfmri_nback_beh_performflag,
+nb_correct_nt,mri_y_tfmr_nback_beh,tfmri_nb_all_beh_ctotal_nt,N-Back Acc.
+nb_correct_mrt,mri_y_tfmr_nback_beh,tfmri_nb_all_beh_ctotal_mrt,N-Back RT
+nb_correct_nt_2back,mri_y_tfmr_nback_beh,tfmri_nb_all_beh_c2b_nt,2-Back Acc.
+nb_correct_mrt_2back,mri_y_tfmr_nback_beh,tfmri_nb_all_beh_c2b_mrt,2-Back RT
+nb_correct_nt_pos,mri_y_tfmr_nback_beh,tfmri_nb_all_beh_cpf_nt,N-Back Acc. Pos
+nb_correct_mrt_pos,mri_y_tfmr_nback_beh,tfmri_nb_all_beh_cpf_mrt,N-Back RT Pos
+nb_correct_nt_neutral,mri_y_tfmr_nback_beh,tfmri_nb_all_beh_cnf_nt,N-Back Acc. Neut
+nb_correct_mrt_neutral,mri_y_tfmr_nback_beh,tfmri_nb_all_beh_cnf_mrt,N-Back RT Neut
+nb_correct_nt_neg,mri_y_tfmr_nback_beh,tfmri_nb_all_beh_cngf_nt,N-Back Acc. Neg
+nb_correct_mrt_neg,mri_y_tfmr_nback_beh,tfmri_nb_all_beh_cngf_mrt,N-Back RT Neg
+nb2_accuracy_pos,mri_y_tfmr_nback_rec_beh,tfmri_rec_all_beh_posface_pr,2B Acc. Pos
+nb2_resp_bias_pos,mri_y_tfmr_nback_rec_beh,tfmri_rec_all_beh_posface_br,2B Bias Pos
+nb2_D_prime_pos,mri_y_tfmr_nback_rec_beh,tfmri_rec_all_beh_posf_dpr,2B d' Pos
+nb2_accuracy_neg,mri_y_tfmr_nback_rec_beh,tfmri_rec_all_beh_negface_pr,2B Acc. Neg
+nb2_resp_bias_neg,mri_y_tfmr_nback_rec_beh,tfmri_rec_all_beh_negface_br,2B Bias Neg
+nb2_D_prime_neg,mri_y_tfmr_nback_rec_beh,tfmri_rec_all_beh_negf_dp,2B d' Neg
+sst_ssrt_mean_est,mri_y_tfmr_sst_beh,tfmri_sst_all_beh_total_mssrt,SSRT Mean
+sst_ssrt_int_est,mri_y_tfmr_sst_beh,tfmri_sst_all_beh_total_issrt,SSRT Integration
+sst_acceptable_performance,mri_y_tfmr_sst_beh,tfmri_sst_beh_performflag,SST Task Valid
+mid_mrt_smrw,mri_y_tfmr_mid_beh,tfmri_mid_all_beh_srw_mrt,MID RT Sm. Rew.
+mid_mrt_lgrw,mri_y_tfmr_mid_beh,tfmri_mid_all_beh_lrw_mrt,MID RT Lg. Rew.
+mid_total_payout,mri_y_tfmr_mid_beh,tfmri_mid_all_beh_t_earnings,MID Earnings
+mid_acceptable_performance,mri_y_tfmr_mid_beh,tfmri_mid_beh_performflag,MID Valid
+mid_num_trials,mri_y_tfmr_mid_beh,tfmri_mid_all_beh_t_nt,MID Trials
+lmt_accuracy,nc_y_lmt,lmt_scr_perc_correct,LMT Accuracy
+lmt_correct_nt,nc_y_lmt,lmt_scr_num_correct,LMT Correct N
+lmt_mrt,nc_y_lmt,lmt_scr_avg_rt,LMT Mean RT
+lmt_correct_mrt,nc_y_lmt,lmt_scr_rt_correct,LMT Correct RT
+lmt_incorrect_mrt,nc_y_lmt,lmt_scr_rt_wrong,
+lmt_efficiency,derived,,LMT Efficiency
+str_accuracy,nc_y_est,strp_scr_acc_all,Stroop Accuracy
+str_accuracy_ic,nc_y_est,strp_scr_acc_incongr,Stroop Accuracy (Incong.)
+str_accuracy_c,nc_y_est,strp_scr_acc_congr,Stroop Accuracy (Cong.)
+str_mrt,nc_y_est,strp_scr_mnrt_all,Stroop Reaction Time
+str_mrt_ic,nc_y_est,strp_scr_mnrt_incongr,Stroop RT (Incongruent)
+str_mrt_c,nc_y_est,strp_scr_mnrt_congr,Stroop RT (Congruent)
+str_stroop_mrt,derived,,Stroop Effect (RT)
+str_stroop_acc,derived,,Stroop Effect (Acc.)
+ddt_rew_amnt,nc_y_ddis,ddis_scr_param_delayrewamt,
+ddt_mrt,nc_y_ddis,ddis_scr_expr_mnrt_allcho,
+ddt_mrt_delayed,nc_y_ddis,ddis_scr_expr_mnrt_delaycho,
+ddt_mrt_immediate,nc_y_ddis,ddis_scr_expr_mnrt_immcho,
+ddt_choice_validity,nc_y_ddis,ddis_scr_val_immedcho,
+correctRT_singlearith,nc_y_smarte,smarte_ss_sdf_rule_rt,
+num_correct_singlearith,nc_y_smarte,smarte_ss_sdf_total_corr,
+accu_mixeddigitarith,nc_y_smarte,smarte_ss_mdf_challenge_acc,
+totalcorrect_arith,nc_y_smarte,smarte_ss_all_total_corr,
+totalcorrect_enum,nc_y_smarte,smarte_ss_dot_total_corr,
+twin,gen_y_zygrat,zyg_ss_r1_judgement,
+height,ph_y_anthro,anthroheightcalc,Height
+waist,ph_y_anthro,anthro_waist_cm,Waist Circumference
+weight,derived,,Weight
+p_have_partner,abcd_p_demo,demo_prnt_prtnr_v2_l,
+partner_bio_parent,abcd_p_demo,demo_prnt_prtnr_bio_l,
+marital_status,abcd_p_demo,demo_prnt_marital_v2_l,Fam. Marital Status
+couldnt_afford_phone,abcd_p_demo,demo_fam_exp2_v2,No Phone
+couldnt_afford_rent_mortgage,abcd_p_demo,demo_fam_exp3_v2,Housing Hardship
+evicted,abcd_p_demo,demo_fam_exp4_v2,Evicted
+gas_electric_oil_turned_off,abcd_p_demo,demo_fam_exp5_v2,Utilities Cutoff
+needed_doc_didnt_go,abcd_p_demo,demo_fam_exp6_v2,
+needed_dentist_didnt_go,abcd_p_demo,demo_fam_exp7_v2,
+parent_jobstatus,abcd_p_demo,demo_prnt_empl_v2,
+area_deprivation_idx,led_l_adi,reshist_addr1_adi_wsum,Area Deprivation Index
+area_deprivation_idx_perc,led_l_adi,reshist_addr1_adi_perc,
+saliva_DHEA,ph_y_sal_horm,hormone_scr_dhea_mean,Salivary DHEA
+saliva_estradiol,ph_y_sal_horm,hormone_scr_hse_mean,
+saliva_testosterone,ph_y_sal_horm,hormone_scr_ert_mean,Salivary Testosterone
+blood_pressure_sys,ph_y_bp,blood_pressure_sys_mean,
+blood_pressure_dia,ph_y_bp,blood_pressure_dia_mean,
+fitbit_include,nt_y_fitb_act_w,fit_ss_meet_abcd_rule,
+fitbit_resting_hr,nt_y_fitb_act_w,fit_ss_fitbit_rest_hr,Resting HR
+fitbit_steps,nt_y_fitb_act_w,fit_ss_perday_totalsteps,Daily Steps
+fitbit_sedentary_mins,nt_y_fitb_act_w,fit_ss_perday_sedentarymin,Sedentary Min.
+fitbit_lightlyactive_mins,nt_y_fitb_act_w,fit_ss_perday_lightlyactivemin,Light Active Min.
+fitbit_fairlyactive_mins,nt_y_fitb_act_w,fit_ss_perday_fairlyactivemin,Moderate Active Min.
+fitbit_veryactive_mins,nt_y_fitb_act_w,fit_ss_perday_veryactivemin,Vigorous Active Min.
+tried_tabacco_k,su_y_sui,tlfb_tob_puff_l,
+tried_weed_k,su_y_sui,tlfb_mj_puff_l,
+tried_alcohol_k,su_y_sui,tlfb_alc_sip_l,
+seriously_sick_lastyear_k,mh_y_le,ple_ill_y,Sick Last Year (Y)
+pain_last_month_k,ph_y_pq,pain_last_month,Recent Pain (Y)
+pain_scale_worst_k,ph_y_pq,pain_scale_worst,
+female_puberty,ph_y_pds,pds_y_ss_female_category_2,
+male_puberty,ph_y_pds,pds_y_ss_male_cat_2,
+no_sports_activities_p,ph_p_saiq,sai_p_activities_l___29,No Sports
+medhx_doctorvisit_p,ph_p_mhx,medhx_1a_l,Doctor Visits
+medhx_asthma_p,ph_p_mhx,medhx_2a_l,Hx: Asthma
+medhx_allergies_p,ph_p_mhx,medhx_2b_l,Hx: Allergies
+medhx_brain_p,ph_p_mhx,medhx_2c_l,Hx: Brain Condition
+medhx_diabetes_p,ph_p_mhx,medhx_2g_l,Hx: Diabetes
+medhx_epilepsy_p,ph_p_mhx,medhx_2h_l,Hx: Epilepsy
+medhx_heart_p,ph_p_mhx,medhx_2o_l,Hx: Heart Condition
+medhx_headaches_p,ph_p_mhx,medhx_2q_l,Hx: Headaches
+medhx_emergencyroom_p,ph_p_mhx,medhx_4a_l,ER Visits
+medhx_brokenbones_p,ph_p_mhx,medhx_6a_l,Hx: Broken Bones
+medhx_seriousinjury_p,ph_p_mhx,medhx_6e_l,Hx: Serious Injury
+medhx_p,derived,,Med. History
+fruit_intake,ph_p_bkfs,bkfs_fruit_ce,Fruit Intake
+vegetable_intake,ph_p_bkfs,bkfs_vegnopot_ce,Vegetable Intake
+whole_grain_intake,ph_p_bkfs,bkfs_whlgrain_oze,Whole Grains
+saturated_fat,ph_p_bkfs,bkfs_satfat_g,Saturated Fat
+added_sugar,ph_p_bkfs,bkfs_sugaradded_tsp,Added Sugar
+sugary_beverage_freq,ph_p_bkfs,bkfs_group_sugarybevg_total_fr,Sugary Drinks
+dairy_intake,ph_p_bkfs,bkfs_dairy_ce,Dairy Intake
+legume_intake,ph_p_bkfs,bkfs_legumes_ce,Legume Intake
+protein_sources_intake,ph_p_bkfs,bkfs_meatpoulfish_oze,Protein Sources
+total_calories,ph_p_bkfs,bkfs_dt_kcal,Total Calories
+protein_intake,ph_p_bkfs,bkfs_dt_prot,Protein (g)
+carbohydrate_intake,ph_p_bkfs,bkfs_dt_carb,Carbs (g)
+fiber_intake,ph_p_bkfs,bkfs_dt_fibe,Fiber (g)
+total_sugar,ph_p_bkfs,bkfs_dt_sug_t,Total Sugar
+daily_food_variety,ph_p_bkfs,bkfs_foodsperday,
+potassium_intake,ph_p_bkfs,bkfs_drxipota,Potassium (mg)
+sodium_intake,ph_p_bkfs,bkfs_drdisodi,Sodium (mg)
+whole_foods_to_processed_foods,derived,,
+fruit_vegetable_total_diet_ratio,derived,,
+protein_fiber_total_diet_ratio,derived,,
+bad_grades,ce_p_sag,sag_grade_type,Bad Grades
+feels_leftout_k,mh_y_peq,peq_left_out_vic,Left Out (Y)
+not_invited_k,mh_y_peq,peq_invite_vic,Not Invited (Y)
+excluded_k,mh_y_peq,peq_exclude_vic,Excluded (Y)
+otherkids_spreadneg_rumors_k,mh_y_peq,peq_rumor_vic,Rumors (Y)
+otherkids_gossip_k,mh_y_peq,peq_gossip_vic,Gossip (Y)
+feels_threatned_k,mh_y_peq,peq_threat_vic,Threatened (Y)
+saysmeanthings_others_k,mh_y_peq,peq_loser_perp,Says Mean (Y)
+otherkids_saymeanthings_k,mh_y_peq,peq_loser_vic,Mean to Me (Y)
+relational_victimization_ss_k,mh_y_peq,peq_ss_relational_victim,Relat. Victim. (Y)
+reputational_aggression_ss_k,mh_y_peq,peq_ss_reputation_aggs,Reput. Aggress. (Y)
+reputational_victimization_ss_k,mh_y_peq,peq_ss_reputation_victim,Reput. Victim. (Y)
+overt_aggression_ss_k,mh_y_peq,peq_ss_overt_aggression,Overt Aggress. (Y)
+overt_victimization_ss_k,mh_y_peq,peq_ss_overt_victim,Overt Victim. (Y)
+relational_aggression_ss_k,mh_y_peq,peq_ss_relational_aggs,Relat. Aggress. (Y)
+y_acceptance_ss_p_crpbi,ce_y_crpbi,crpbi_y_ss_parent,Parent Acceptance (Y)
+y_acceptance_ss_caregiver_crpbi,ce_y_crpbi,crpbi_y_ss_caregiver,Caregiver Acceptance (Y)
+school_environment_ss_k,ce_y_srpf,srpf_y_ss_ses,School Environ. (Y)
+school_involvement_ss_k,ce_y_srpf,srpf_y_ss_iiss,School Involve. (Y)
+school_disengagement_ss_k,ce_y_srpf,srpf_y_ss_dfs,Disengagement (Y)
+getalong_teachers_k,ce_y_srpf,school_3_y,Teacher Rapport (Y)
+feelsafe_at_school_k,ce_y_srpf,school_6_y,School Safety (Y)
+feels_smart_k,ce_y_srpf,school_9_y,Feels Smart (Y)
+enjoys_school_k,ce_y_srpf,school_12_y,Enjoys School (Y)
+finds_schoolboring_k,ce_y_srpf,school_15_y,School Boring (Y)
+grades_important_k,ce_y_srpf,school_17_y,Grades Matter (Y)
+p_comm_cohesion_ss,ce_p_comc,comc_ss_cohesion_p,Fam. Comm. Cohesion
+p_comm_ctrl_ss,ce_p_comc,comc_ss_control_p,Fam. Comm. Control
+p_comm_collective_efficacy_ss,ce_p_comc,comc_ss_collective_capacity_p,Fam. Collect. Efficacy
+problem_solving_ss_k,ce_y_wps,wps_ss_sum,Problem Solving (Y)
+prosocial_ss_p,ce_p_psb,psb_p_ss_mean,Prosocial
+peer_net_protective_ss_k,ce_y_pnh,pnh_ss_protective_scale,Peer Protection (Y)
+parent_monitoring_ss_k,ce_y_pm,pmq_y_ss_mean,Fam. Par. Monitoring (Y)
+family_conflict_ss_k,ce_y_fes,fes_y_ss_fc_pr,Fam. Conflict SS (Y)
+fam_fight_often_k,ce_y_fes,fes_youth_q1,Fam. Fight Often (Y)
+fam_no_open_anger_k,ce_y_fes,fes_youth_q2,Fam. No Open Anger (Y)
+fam_throw_things_k,ce_y_fes,fes_youth_q3,Fam. Throw Things (Y)
+fam_no_lose_temps_k,ce_y_fes,fes_youth_q4,Fam. Keep Temper (Y)
+fam_criticize_often_k,ce_y_fes,fes_youth_q5,Fam. Criticize (Y)
+fam_hit_each_other_k,ce_y_fes,fes_youth_q6,Fam. Hitting (Y)
+fam_keep_peace_k,ce_y_fes,fes_youth_q7,Fam. Keep Peace (Y)
+fam_try_one_up_k,ce_y_fes,fes_youth_q8,Fam. One-Upmanship (Y)
+fam_no_raise_voices_k,ce_y_fes,fes_youth_q9,Fam. No Yelling (Y)
+prosocial_ss_k,ce_y_psb,psb_y_ss_mean,Prosocial (Y)
+parent_care_misbehave_k,ce_y_mnbs,mnbs_bad,Par. Monitors Behavior (Y)
+parent_care_whereabouts_k,ce_y_mnbs,mnbs_doing,Par. Knows Whereabouts (Y)
+parent_care_friends_k,ce_y_mnbs,mnbs_friend,Par. Knows Friends (Y)
+parent_helphomework_k,ce_y_mnbs,mnbs_homework,Par. Homework Help (Y)
+parent_safeplay_k,ce_y_mnbs,mnbs_play,Par. Safe Play (Y)
+parent_gotoschool_k,ce_y_mnbs,mnbs_school,Par. School Attendance (Y)
+parent_troubleschool_k,ce_y_mnbs,mnbs_trouble,Par. School Trouble (Y)
+parent_helpunderstanding_k,ce_y_mnbs,mnbs_understand,Par. Helps Understand (Y)
+parent_cares_ss_k,derived,,Parental Monitoring (Y)
+socialinfluence_meanfinal_k,nc_y_sit,sit_scr_expr_mfinalrat,Social Influence (Y)
+screentime_weekday_ss_k,nt_y_st,stq_y_ss_weekday,Weekday Screen (Y)
+screentime_weekend_ss_k,nt_y_st,stq_y_ss_weekend,Weekend Screen Time (Y)
+enjoys_reading_k,ph_y_saiq,sai_read_enjoy_y,
+enjoys_music_k,ph_y_saiq,sai_lmusic_y,Enjoys Music (Y)
+feels_discriminated_k,ce_y_dm,dim_yesno_q1,Feels Discrim. (Y)
+feels_discriminated_teachers_k,ce_y_dm,dim_matrix_q1,Discrim. Teachers (Y)
+feels_discriminated_adults_not_school_k,ce_y_dm,dim_matrix_q2,Discrim. Adults (Y)
+feels_discriminated_students_k,ce_y_dm,dim_matrix_q3,Discrim. Students (Y)
+senses_racism_k,ce_y_dm,dim_matrix_q4,Senses Racism (Y)
+feels_unwanted_american_society_k,ce_y_dm,dim_matrix_q5,Feels Unwanted (Y)
+doesnt_feel_accepted_k,ce_y_dm,dim_matrix_q6,Not Accepted (Y)
+feels_discriminated_americans_k,ce_y_dm,dim_matrix_q7,Discrim. Society (Y)
+discrimination_ss_k,ce_y_dm,dim_y_ss_mean,Discrimination (Y)
+peers_beh_prosocial_ss_k,ce_y_pbp,pbp_ss_prosocial_peers,Peer Prosocial (Y)
+peers_beh_delinquent_ss_k,ce_y_pbp,pbp_ss_rule_break,Peer Delinquency (Y)
+close_boy_friends_k,mh_y_or,resiliency5b_y,Close Boy Friends (Y)
+close_girl_friends_k,mh_y_or,resiliency6b_y,Close Girl Friends (Y)
+nonBfriends_k,mh_y_or,resiliency7a_y,Number of Friends (Y)
+close_nonB_friends_k,mh_y_or,resiliency7b_y,Close Friends (Y)
+socialmedia_daysperweek_k,nt_y_st,screentime_sq7,Social Media (Y)
+socialmedia_hoursperday_k,nt_y_st,screentime_smq_soc_med_hr,
+videogames_daysperweek_k,nt_y_st,screentime_sq4,Gaming Days (Y)
+instagram_account_k,nt_y_st,screentime_smq_instagram,
+sphone_Interupt,nt_y_st,screentime_phone1,Phone Interruptions
+sphone_noreason,nt_y_st,screentime_phone2,Phone: No Reason
+sphone_distress,nt_y_st,screentime_phone8,Phone Distress
+sphone_attachment,nt_y_st,screentime_phone_scale,Phone Attachment
+smedia_preference,nt_y_st,screentime_smq_use_most,
+smedia_thinking,nt_y_st,screentime_smqa1,
+vgame_thinking,nt_y_st,screentime_vgaq1,Gaming Preoccup.
+bullied_on_internet_k,mh_y_cbb,cybb_phenx_harm,Cyberbullied (Y)
+bullied_internet_frequency_k,mh_y_cbb,cybb_phenx_harm_often,
+frequent_family_conflict_p,ce_p_fes,fam_enviro1_p,Fam. Freq. Conflict
+family_anger_rare_p,ce_p_fes,fam_enviro2r_p,
+family_angry_throw_things_p,ce_p_fes,fam_enviro3_p,
+family_lose_temper_rare_p,ce_p_fes,fam_enviro4r_p,Fam. Rare Temper
+family_criticize_each_other_often_p,ce_p_fes,fam_enviro5_p,
+family_hit_each_other_p,ce_p_fes,fam_enviro6_p,
+family_peaceful_p,ce_p_fes,fam_enviro7r_p,Fam. Peaceful
+family_outdo_each_other_often_p,ce_p_fes,fam_enviro8_p,
+family_believe_not_raise_voice_p,ce_p_fes,fam_enviro9r_p,Fam. No Yelling
+family_organized_p,ce_p_fes,fes_19_p,
+family_nosports_p,ce_p_fes,fes_27r_p,
+family_feels_togetherness_p,ce_p_fes,fes_31_p,
+family_activities_together_p,ce_p_fes,fes_37_p,
+family_rarely_intellectualdiscourse_p,ce_p_fes,fes_46r_p,
+family_frequent_support_p,ce_p_fes,fes_1_p,
+family_conflict_p,ce_p_fes,fes_71_p,
+family_not_talk_aboutfeelings_p,ce_p_fes,fes_2r_p,Fam. No Feeling Talk
+family_eclectic_interests_p,ce_p_fes,fes_86_p,
+family_frequent_TV_p,ce_p_fes,fes_87r_p,
+family_open_discussing_anything_p,ce_p_fes,fes_12_p,Fam. Open Discussion
+family_conflict_ss_p,ce_p_fes,fes_p_ss_fc_pr,Fam. Conflict SS
+family_expression_ss_p,ce_p_fes,fes_p_ss_exp_sum_pr,Fam. Expression SS
+family_intellectual_ss_p,ce_p_fes,fes_p_ss_int_cult_sum_pr,Fam. Intellectual SS
+family_activities_ss_p,ce_p_fes,fes_p_ss_act_rec_sum_pr,Fam. Activities SS
+family_organisation_ss_p,ce_p_fes,fes_p_ss_org_sum_pr,Fam. Organization SS
+neighborhood_safe_y,ce_y_nsc,neighborhood_crime_y,Nbhd. Safe Youth
+neighborhood_safety_ss_p,ce_p_nsc,nsc_p_ss_mean_3_items,Nbhd. Safety
+enjoys_music_p,ph_p_saiq,sai_ss_lmusic_hours_2_p_l,
+atschool_total_problems_ss_t,mh_t_bpm,bpm_t_scr_totalprob_t,
+atschool_external_ss_t,mh_t_bpm,bpm_t_scr_external_t,
+atschool_internal_ss_t,mh_t_bpm,bpm_t_scr_internal_t,
+atschool_attention_ss_t,mh_t_bpm,bpm_t_scr_attention_t,
+parent_depressed_mood_B_p,mh_p_ksads_ss,ksads_1_1_p,Par. Dep. Mood
+parent_anhedonia_B_p,mh_p_ksads_ss,ksads_1_5_p,Par. Anhedonia
+parent_elevated_mood_B_p,mh_p_ksads_ss,ksads_2_7_p,Par. Elev. Mood
+parent_excessive_worry_B_p,mh_p_ksads_ss,ksads_10_45_p,Par. Chronic Worry
+parent_lying_B_p,mh_p_ksads_ss,ksads_16_98_p,Par. Lying
+parent_wish_dead_present_B_p,mh_p_ksads_ss,ksads_23_145_p,Wish to Be Dead (Parent Report)
+parent_suicide_past_B_p,mh_p_ksads_ss,ksads_23_148_p,Par. Past Suicide
+parent_fatigue_past_B_p,mh_p_ksads_ss,ksads_1_160_p,
+parent_fatigue_present_B_p,mh_p_ksads_ss,ksads_1_159_p,
+hopeless_B_p,mh_p_ksads_ss,ksads_1_179_p,Parent Hopelessness (KSADS)
+parent_two_more_depression_B_p,mh_p_ksads_ss,ksads_1_185_p,Parent ≥2 Depressive Symptoms (KSADS)
+parent_socially_anxious_B_p,mh_p_ksads_ss,ksads_8_301_p,Parent Social Anxiety Symptoms (KSADS)
+parent_dysthymia_B_p,mh_p_ksads_ss,ksads_1_843_p,Par. Dysthymia
+parent_social_anxiety_disorder_B_p,mh_p_ksads_ss,ksads_8_863_p,Par. Social Anx.
+parent_sleep_problem_B_p,mh_p_ksads_ss,ksads_22_969_p,Par. Sleep Prob.
+parent_bulimia_B_p,mh_p_ksads_ss,ksads_13_935_p,Par. Bulimia
+MDD_past_parent,mh_p_ksads_ss,ksads_1_842_p,
+GAD_Past_Parent,mh_p_ksads_ss,ksads_10_870_p,
+reckless_self_destructive_B_p,mh_p_ksads_ss,ksads_21_373_p,
+low_self_esteem_B_p,mh_p_ksads_ss,ksads_1_181_p,
+obsessions_present_B_p,mh_p_ksads_ss,ksads_11_48_p,Par. Obsessions
+distress_due_to_social_anxiety_B_p,mh_p_ksads_ss,ksads_8_311_p,
+attachment_sleepproblems_B_p,mh_p_ksads_ss,ksads_7_287_p,
+easily_annoyed_B_p,mh_p_ksads_ss,ksads_15_439_p,
+spiteful_vindictive_B_p,mh_p_ksads_ss,ksads_15_434_p,
+physically_cruel_to_people_B_p,mh_p_ksads_ss,ksads_16_461_p,
+poor_eye_contact_B_p,mh_p_ksads_ss,ksads_18_116_p,Par. Eye Contact
+hallucinogen_use_history_B_p,mh_p_ksads_ss,ksads_20_885_p,Hallucinogen Hx
+hallucinogen_current_B_p,mh_p_ksads_ss,ksads_20_876_p,Hallucinogen Cur.
+sedative_hypnotic_anxiolytic_use_B_p,mh_p_ksads_ss,ksads_20_873_p,Sedative Use
+stimulant_craving_present_B_p,mh_p_ksads_ss,ksads_20_560_p,
+concentration_issues_B_p,mh_p_ksads_ss,ksads_21_379_p,
+nightmares_B_p,mh_p_ksads_ss,ksads_21_137_p,Par. Nightmares
+ptsd_diagnosis_present_B_p,mh_p_ksads_ss,ksads_21_921_p,Par. PTSD
+parent_anxdep_D_p,mh_p_asr,asr_scr_anxdep_t,Par. Anx./Dep.
+parent_attention_D_p,mh_p_asr,asr_scr_attention_t,Par. Attention Dysregulation
+parent_aggressive_D_p,mh_p_asr,asr_scr_aggressive_t,Par. Aggressive/Impulsive
+parent_internal_D_p,mh_p_asr,asr_scr_internal_t,Par. Internalizing
+parent_external_D_p,mh_p_asr,asr_scr_external_t,Par. Externalizing
+parent_depress_D_p,mh_p_asr,asr_scr_depress_t,Parent Depression (Syndrome)
+parent_anxdisord_D_p,mh_p_asr,asr_scr_anxdisord_t,Par. Anx. Disorder
+parent_adhd_D_p,mh_p_asr,asr_scr_adhd_t,Par. ADHD
+parent_antisocial_D_p,mh_p_asr,asr_scr_antisocial_t,Par. Antisocial
+parent_hyperactive_D_p,mh_p_asr,asr_scr_hyperactive_t,Par. Hyperactivity
+parent_somatic_problems_D_p,mh_p_asr,asr_scr_somatic_t,Par. Somatic Issues
+parent_intrusive_thoughts_D_p,mh_p_asr,asr_scr_intrusive_t,Par. Intrusive Thoughts
+parent_avoidant_person_D_p,mh_p_asr,asr_scr_avoidant_t,Par. Avoidant
+parent_personal_strength_D_p,mh_p_asr,asr_scr_perstr_t,Par. Strengths
+parent_aggressive_total_D_p,mh_p_asr,asr_scr_aggressive_total,
+fallsleeptime,ph_y_mctq,mctq_fd_min_to_sleep_calc,Sleep Onset Time
+wakeuptime,ph_y_mctq,mctq_fd_min_to_get_up_calc,Wake Time
+wakesleepcalc,ph_y_mctq,mctq_sdweek_calc,Sleep Duration
+chronotype,ph_y_mctq,mctq_msfsc_calc,Chronotype
+medname,ph_p_meds,med1_rxnorm_p,
+qmedtaken,ph_p_meds,brought_medications,
+meddosage,ph_p_meds,medication1_dosage,
+othermed,ph_p_meds,prescribe_med_2_yn,
+othermedname,ph_p_meds,med2_rxnorm_p,
+othermeddose,ph_p_meds,medication2_dosage,
+sex_orient_y,gish_y_sex,kbi_y_sex_orient,Sex Orientation
+sex_attract_y,gish_y_sex,gish2_sexual_attract,
+trans_id_y,gish_y_gi,kbi_y_trans_id,Trans Identity
+sst_theta0,pradsst,theta0,SST Task Theta0
+sst_theta1,pradsst,theta1,SST Task Theta1
+sst_mu,pradsst,mu,SST Task Mu
+sst_aS,pradsst,aS,SST Task AlphaS
+sst_dS,pradsst,dS,SST Task DeltaS
+sst_gamma0,pradsst,gamma0,SST Task Gamma0
+sst_gamma1,pradsst,gamma1,SST Task Gamma1
+sst_dG,pradsst,dG,SST Task DeltaG
+sst_aG1,pradsst,aG1,SST Task AlphaG1
+sst_aG2,pradsst,aG2,SST Task AlphaG2
+sst_kappa0,pradsst,kappa0,SST Task Kappa0
+sst_xM,pradsst,xM,SST Task xM
+sst_sM,pradsst,sM,SST Task sM
+sst_bG,pradsst,bG,SST Task BetaG
+sst_pp,pradsst,pp,SST Task pp
+sst_factor1,pradsst,factor1,SST Task Factor 1
+sst_factor2,pradsst,factor2,SST Task Factor 2
+sst_factor3,pradsst,factor3,SST Task Factor 3
+sst_mean_ssrt,pradsst,mean_ssrt,SST Task Mean SSRT
+sst_median_ssrt,pradsst,median_ssrt,SST Task Median SSRT
+sst_mean_PDR,pradsst,mean_PDR,SST Task Mean PDR
+sst_median_PDR,pradsst,median_PDR,SST Task Median PDR
+sst_mean_SD,pradsst,mean_SD,SST Task Mean SD
+sst_median_SD,pradsst,median_SD,SST Task Median SD
+sst_mean_SDr,pradsst,mean_SDr,SST Task Mean SDr
+sst_median_SDr,pradsst,median_SDr,SST Task Median SDr
+sst_mean_PDRg,pradsst,mean_PDRg,SST Task Mean PDRg
+sst_median_PDRg,pradsst,median_PDRg,SST Task Median PDRg
+sst_mean_betaS,pradsst,mean_betaS,SST Task Mean BetaS
+sst_median_betaS,pradsst,median_betaS,SST Task Median BetaS
+sst_mean_bS2,pradsst,mean_bS2,SST Task Mean BetaS2
+sst_median_bS2,pradsst,median_bS2,SST Task Median BetaS2
+sst_mean_absdelta,pradsst,mean_absdelta,SST Task Mean AbsDelta
+sst_median_absdelta,pradsst,median_absdelta,SST Task Med. AbsDelta
+sst_pdrV,pradsst,pdrV,SST Task PDR Var.
+sst_pdrSD,pradsst,pdrSD,SST Task PDR SD
+sst_pdrCV,pradsst,pdrCV,SST Task PDR CV
+sst_sdRV,pradsst,sdRV,SST Task SD Var.
+sst_sdSD,pradsst,sdSD,SST Task SD StdDev
+sst_sdCV,pradsst,sdCV,SST Task SD CV
+sst_sdrRV,pradsst,sdrRV,SST Task SDr Var.
+sst_sdrSD,pradsst,sdrSD,SST Task SDr SD
+sst_sdrCV,pradsst,sdrCV,SST Task SDr CV
+sst_pdrgV,pradsst,pdrgV,SST Task PDRg Var.
+sst_pdrgSD,pradsst,pdrgSD,SST Task PDRg SD
+sst_pdrgCV,pradsst,pdrgCV,SST Task PDRg CV
+sst_betasV,pradsst,betasV,SST Task BetaS Var.
+sst_betasSD,pradsst,betasSD,SST Task BetaS SD
+sst_betasCV,pradsst,betasCV,SST Task BetaS CV
+sst_absdeltaRV,pradsst,absdeltaRV,SST Task AbsDelta Var.
+sst_absdeltaSD,pradsst,absdeltaSD,SST Task AbsDelta SD
+sst_absdeltaCV,pradsst,absdeltaCV,SST Task AbsDelta CV
+sst_bs2V,pradsst,bs2V,SST Task BetaS2 Var.
+sst_bs2SD,pradsst,bs2SD,SST Task BetaS2 SD
+sst_bs2CV,pradsst,bs2CV,SST Task BetaS2 CV
+rsfmri_DMN_intra,mri_y_rsfmr_cor_gp_gp,rsfmri_c_ngd_dt_ngd_dt,
+rsfmri_SAN_intra,mri_y_rsfmr_cor_gp_gp,rsfmri_c_ngd_sa_ngd_sa,
+rsfmri_FPN_intra,mri_y_rsfmr_cor_gp_gp,rsfmri_c_ngd_fo_ngd_fo,
+rsfmri_CON_intra,mri_y_rsfmr_cor_gp_gp,rsfmri_c_ngd_cgc_ngd_cgc,
+rsfmri_VAN_intra,mri_y_rsfmr_cor_gp_gp,rsfmri_c_ngd_vta_ngd_vta,
+rsfmri_DAN_intra,mri_y_rsfmr_cor_gp_gp,rsfmri_c_ngd_dla_ngd_dla,
+rsfmri_DMN_FPN_inter,mri_y_rsfmr_cor_gp_gp,rsfmri_c_ngd_dt_ngd_fo,
+rsfmri_DMN_CON_inter,mri_y_rsfmr_cor_gp_gp,rsfmri_c_ngd_dt_ngd_cgc,
+parent_forgetful_p,mh_p_asr,asr_q01_p,Par. Forgetful
+parent_uses_opportunities_p,mh_p_asr,asr_q02_p,Par. Opportunistic
+parent_argues_a_lot_p,mh_p_asr,asr_q03_p,
+parent_max_effort_p,mh_p_asr,asr_q04_p,Par. Low Effort
+parent_blames_others_p,mh_p_asr,asr_q05_p,
+parent_drug_use_p,mh_p_asr,asr_q06_p,Par. Drug Use
+parent_bragging_p,mh_p_asr,asr_q07_p,Par. Bragging
+parent_concentration_trouble_p,mh_p_asr,asr_q08_p,Par. Concentration Difficulty
+parent_obsessive_thoughts_p,mh_p_asr,asr_q09_p,Par. Obsessive Thinking
+parent_hyperactive_p,mh_p_asr,asr_q10_p,Par. Hyperactive
+parent_dependency_p,mh_p_asr,asr_q11_p,
+parent_lonely_p,mh_p_asr,asr_q12_p,Par. Lonely
+parent_confused_p,mh_p_asr,asr_q13_p,Par. Confused
+parent_cries_a_lot_p,mh_p_asr,asr_q14_p,Par. Cries
+parent_honest_p,mh_p_asr,asr_q15_p,Par. Honest
+parent_mean_to_others_p,mh_p_asr,asr_q16_p,
+parent_daydreams_a_lot_p,mh_p_asr,asr_q17_p,
+parent_self_harm_p,mh_p_asr,asr_q18_p,Par. Self-Harm
+parent_attention_seeking_p,mh_p_asr,asr_q19_p,Par. Attention Seeking
+parent_destroys_own_things_p,mh_p_asr,asr_q20_p,Par. Destroys Own
+parent_destroys_others_things_p,mh_p_asr,asr_q21_p,Par. Destroys Oth.
+parent_worries_about_future_p,mh_p_asr,asr_q22_p,Par. Future Worry
+parent_breaks_rules_p,mh_p_asr,asr_q23_p,
+parent_doesnt_eat_well_p,mh_p_asr,asr_q24_p,Par. Poor Eating
+parent_bad_relationships_p,mh_p_asr,asr_q25_p,Par. General Bad Relationships
+parent_no_guilt_p,mh_p_asr,asr_q26_p,Par. No Guilt
+parent_jealous_p,mh_p_asr,asr_q27_p,
+parent_bad_family_relationship_p,mh_p_asr,asr_q28_p,Par. Bad Family Relations
+parent_specific_fears_p,mh_p_asr,asr_q29_p,Par. Phobias
+parent_bad_opposite_sex_relationship_p,mh_p_asr,asr_q30_p,Par. Opposite Sex Relationships
+parent_fear_of_bad_thoughts_p,mh_p_asr,asr_q31_p,Par. Bad Thoughts
+parent_perfectionist_p,mh_p_asr,asr_q32_p,
+parent_feels_unloved_p,mh_p_asr,asr_q33_p,Par. Unloved
+parent_paranoid_p,mh_p_asr,asr_q34_p,Par. Paranoid
+parent_feels_inferior_p,mh_p_asr,asr_q35_p,Par. Feels Inferior
+parent_accident_prone_p,mh_p_asr,asr_q36_p,
+parent_gets_into_fights_p,mh_p_asr,asr_q37_p,
+parent_bad_neighbor_relationship_p,mh_p_asr,asr_q38_p,
+parent_associates_with_trouble_p,mh_p_asr,asr_q39_p,Par. Gets in Trouble
+parent_hears_nonexistent_sounds_p,mh_p_asr,asr_q40_p,
+parent_impulsive_p,mh_p_asr,asr_q41_p,Par. Impulsive
+parent_prefers_solitude_p,mh_p_asr,asr_q42_p,
+parent_lies_or_cheats_p,mh_p_asr,asr_q43_p,
+parent_feels_overwhelmed_p,mh_p_asr,asr_q44_p,
+parent_nervous_or_tense_p,mh_p_asr,asr_q45_p,
+parent_involuntary_tics_p,mh_p_asr,asr_q46_p,
+parent_lacks_self_confidence_p,mh_p_asr,asr_q47_p,
+parent_not_liked_by_others_p,mh_p_asr,asr_q48_p,Par. Unliked by Others
+parent_feels_superior_p,mh_p_asr,asr_q49_p,
+parent_fearful_or_anxious_p,mh_p_asr,asr_q50_p,Par. Fearful
+parent_dizzy_lightheaded_p,mh_p_asr,asr_q51_p,
+parent_feels_guilty_p,mh_p_asr,asr_q52_p,
+parent_planning_trouble_p,mh_p_asr,asr_q53_p,Par. Planing Trouble
+parent_tired_no_reason_p,mh_p_asr,asr_q54_p,Par. Fatigue
+parent_mood_swings_p,mh_p_asr,asr_q55_p,
+parent_aches_pains_p,mh_p_asr,asr_q56a_p,
+parent_headaches_p,mh_p_asr,asr_q56b_p,
+parent_nausea_p,mh_p_asr,asr_q56c_p,
+parent_eye_problems_p,mh_p_asr,asr_q56d_p,
+parent_skin_problems_p,mh_p_asr,asr_q56e_p,
+parent_stomachaches_p,mh_p_asr,asr_q56f_p,
+parent_vomiting_p,mh_p_asr,asr_q56g_p,
+parent_heart_pounding_p,mh_p_asr,asr_q56h_p,
+parent_numbness_p,mh_p_asr,asr_q56i_p,Par. Numbness
+parent_physically_attacks_p,mh_p_asr,asr_q57_p,
+parent_skin_picking_p,mh_p_asr,asr_q58_p,
+parent_doesnt_finish_tasks_p,mh_p_asr,asr_q59_p,Par. Task Completion
+parent_enjoys_little_p,mh_p_asr,asr_q60_p,Par. No Pleasure
+parent_poor_work_performance_p,mh_p_asr,asr_q61_p,
+parent_clumsy_p,mh_p_asr,asr_q62_p,Par. Clumsy
+parent_prefers_older_people_p,mh_p_asr,asr_q63_p,Par. Pref. Older Friends
+parent_priority_trouble_p,mh_p_asr,asr_q64_p,Par. Prioritization Difficulty
+parent_refuses_to_talk_p,mh_p_asr,asr_q65_p,
+parent_repeats_acts_p,mh_p_asr,asr_q66_p,Par. Compulsions
+parent_friendship_trouble_p,mh_p_asr,asr_q67_p,Par. Friendship Problems
+parent_yells_a_lot_p,mh_p_asr,asr_q68_p,Par. Yells
+parent_secretive_p,mh_p_asr,asr_q69_p,Par. Secretive
+parent_sees_nonexistent_things_p,mh_p_asr,asr_q70_p,
+parent_self_conscious_p,mh_p_asr,asr_q71_p,Par. Low Self Confidence
+parent_worries_about_family_p,mh_p_asr,asr_q72_p,Par. Family Specific Worry
+parent_meets_family_duties_p,mh_p_asr,asr_q73_p,Par. Fulfills Fam. Responsibilities
+parent_clowns_or_shows_off_p,mh_p_asr,asr_q74_p,Par. Socially Performative
+parent_shy_or_timid_p,mh_p_asr,asr_q75_p,Par. Shy
+parent_irresponsible_p,mh_p_asr,asr_q76_p,
+parent_sleeps_a_lot_p,mh_p_asr,asr_q77_p,
+parent_decision_trouble_p,mh_p_asr,asr_q78_p,Par. Indecisive
+parent_speech_problem_p,mh_p_asr,asr_q79_p,
+parent_stands_up_rights_p,mh_p_asr,asr_q80_p,Par. Assertive
+parent_behavior_changeable_p,mh_p_asr,asr_q81_p,Par. Behavior Labile
+parent_steals_p,mh_p_asr,asr_q82_p,
+parent_easily_bored_p,mh_p_asr,asr_q83_p,Par. Easily Bored
+parent_strange_behavior_p,mh_p_asr,asr_q84_p,Par. Strange Behavior
+parent_strange_thoughts_p,mh_p_asr,asr_q85_p,Par. Odd Thoughts
+parent_stubborn_irritable_p,mh_p_asr,asr_q86_p,Par. Stubborn/Irritable
+parent_sudden_mood_changes_p,mh_p_asr,asr_q87_p,Par. Mood Swings
+parent_enjoys_company_p,mh_p_asr,asr_q88_p,
+parent_risky_decisions_p,mh_p_asr,asr_q89_p,Par. Risky Decisions
+parent_drinks_too_much_p,mh_p_asr,asr_q90_p,Par. Excess Drink
+parent_suicidal_thoughts_p,mh_p_asr,asr_q91_p,Par. Suicidal
+parent_illegal_behavior_p,mh_p_asr,asr_q92_p,Par. Illegal Behav.
+parent_talks_too_much_p,mh_p_asr,asr_q93_p,Par. Talkative
+parent_teases_others_p,mh_p_asr,asr_q94_p,Par. Teases
+parent_hot_temper_p,mh_p_asr,asr_q95_p,Par. Hot Temper
+parent_thinks_about_sex_p,mh_p_asr,asr_q96_p,
+parent_threatens_others_p,mh_p_asr,asr_q97_p,
+parent_likes_helping_others_p,mh_p_asr,asr_q98_p,
+parent_dislikes_staying_put_p,mh_p_asr,asr_q99_p,
+parent_sleep_trouble_p,mh_p_asr,asr_q100_p,Par. Sleep Trouble
+parent_absent_from_work_p,mh_p_asr,asr_q101_p,
+parent_low_energy_p,mh_p_asr,asr_q102_p,Par. Low Energy
+parent_depressed_p,mh_p_asr,asr_q103_p,Par. Depressed
+parent_louder_than_others_p,mh_p_asr,asr_q104_p,Par. Loud
+parent_disorganized_p,mh_p_asr,asr_q105_p,Par. Disorganized
+parent_fair_to_others_p,mh_p_asr,asr_q106_p,
+parent_feels_unsuccessful_p,mh_p_asr,asr_q107_p,Par. Feels Unsuccessful
+parent_loses_things_p,mh_p_asr,asr_q108_p,Par. Loses Things
+parent_tries_new_things_p,mh_p_asr,asr_q109_p,
+parent_wants_opposite_sex_p,mh_p_asr,asr_q110_p,
+parent_avoids_involvement_p,mh_p_asr,asr_q111_p,
+parent_worries_a_lot_p,mh_p_asr,asr_q112_p,Par. Worries
+parent_relationship_concerns_p,mh_p_asr,asr_q113_p,Par. Relat. Specific Worry
+parent_financial_failures_p,mh_p_asr,asr_q114_p,
+parent_restless_p,mh_p_asr,asr_q115_p,Par. Restless
+parent_upset_easily_p,mh_p_asr,asr_q116_p,
+parent_money_management_trouble_p,mh_p_asr,asr_q117_p,Par. Money Management Prob.
+parent_too_impatient_p,mh_p_asr,asr_q118_p,
+parent_not_good_at_details_p,mh_p_asr,asr_q119_p,Par. Struggles with Details
+parent_drives_too_fast_p,mh_p_asr,asr_q120_p,Par. Drives Fast
+parent_tardy_often_p,mh_p_asr,asr_q121_p,Par. Tardy
+parent_job_instability_p,mh_p_asr,asr_q122_p,
+parent_happy_person_p,mh_p_asr,asr_q123_p,Par. Happiness
+parent_tobacco_use_frequency_p,mh_p_asr,asr_q124_p,Par. Tobacco Freq.
+parent_tobacco_use_dont_know_p,mh_p_asr,asr_q124_p_dk,
+parent_days_drunk_p,mh_p_asr,asr_q125_p,
+parent_days_drunk_dont_know_p,mh_p_asr,asr_q125_p_dk,
+parent_days_drug_use_p,mh_p_asr,asr_q126_p,
+parent_days_drug_use_dont_know_p,mh_p_asr,asr_q126_p_dk,
+depressed_mood_B_k,mh_y_ksads_ss,ksads_1_1_t,Depressed Mood (KSADS)
+anhedonia_B_k,mh_y_ksads_ss,ksads_1_5_t,Anhedonia (KSADS)
+elevated_mood_B_k,mh_y_ksads_ss,ksads_2_7_t,Elevated Mood (KSADS)
+excessive_worry_B_k,mh_y_ksads_ss,ksads_10_45_t,Excessive Worry (KSADS)
+lying_B_k,mh_y_ksads_ss,ksads_16_98_t,Frequent Lying (KSADS)
+wish_dead_present_B_k,mh_y_ksads_ss,ksads_23_145_t,Wish to Be Dead (Child Report)
+fatigue_past_B_k,mh_y_ksads_ss,ksads_1_160_t,
+fatigue_present_B_k,mh_y_ksads_ss,ksads_1_159_t,Fatigue (KSADS)
+hopeless_B_k,mh_y_ksads_ss,ksads_1_179_t,Hopelessness (KSADS)
+two_more_depression_B_k,mh_y_ksads_ss,ksads_1_185_t,≥2 Depressive Symptoms (KSADS)
+socially_anxious_B_k,mh_y_ksads_ss,ksads_8_301_t,Social Anxiety Symptoms (KSADS)
+social_anxiety_disorder_B_k,mh_y_ksads_ss,ksads_8_863_t,Social Anxiety Disorder (KSADS)
+sleep_problem_B_k,mh_y_ksads_ss,ksads_22_969_t,Sleep Problems (KSADS)
+anorexia_B_k,mh_y_ksads_ss,ksads_13_932_t,Anorexia Nervosa (KSADS)
+bulimia_B_k,mh_y_ksads_ss,ksads_13_935_t,Bulimia Nervosa (KSADS)
+GAD_present,mh_y_ksads_ss,ksads_10_869_t,Generalized Anxiety Disorder (KSADS)
+OCD_present,mh_y_ksads_ss,ksads_11_917_t,OCD (KSADS)
+panic_present_PK,mh_y_ksads_ss,ksads_5_20_t,
+sep_anxiety_distress_present_PK,mh_y_ksads_ss,ksads_7_24_t,
+social_fear_present_PK,mh_y_ksads_ss,ksads_8_29_t,Social Fear
+trauma_history_present_PK,mh_y_ksads_ss,ksads_21_134_t,
+agoraphobia_present_PK,mh_y_ksads_ss,ksads_6_22_t,
+obsessions_present_PK,mh_y_ksads_ss,ksads_11_48_t,
+conduct_physical_fights_present_PK,mh_y_ksads_ss,ksads_16_102_t,Phys. Fights
+impulsivity_present_PK,mh_y_ksads_ss,ksads_14_88_t,
+trauma_distress_internal_present_PK,mh_y_ksads_ss,ksads_21_139_t,
+school_refusal_present_PK,mh_y_ksads_ss,ksads_7_26_t,
+hallucinations_present_PK,mh_y_ksads_ss,ksads_4_16_t,
+bipolar_psychomotor_agitation_present_PK,mh_y_ksads_ss,ksads_2_207_t,
+specific_phobia_present_PK,mh_y_ksads_ss,ksads_9_34_t,
+strict_routines_present_PK,mh_y_ksads_ss,ksads_18_114_t,
+temper_outbursts_present_PK,mh_y_ksads_ss,ksads_3_226_t,
+adhd_instructions_difficulty_present_PK,mh_y_ksads_ss,ksads_14_396_t,
+drug_impact_role_present_PK,mh_y_ksads_ss,ksads_20_130_t,
+fear_becoming_obese_present_PK,mh_y_ksads_ss,ksads_13_66_t,Weight Fear
+enuresis_present_PK,mh_y_ksads_ss,ksads_12_52_t,
+poor_eye_contact_present_PK,mh_y_ksads_ss,ksads_18_116_t,
+persecutory_delusions_present_PK,mh_y_ksads_ss,ksads_4_18_t,
+conduct_vandalism_present_PK,mh_y_ksads_ss,ksads_16_447_t,
+hypersexuality_present_PK,mh_y_ksads_ss,ksads_2_14_t,
+trauma_negative_beliefs_present_PK,mh_y_ksads_ss,ksads_21_359_t,
+drug_impact_interpersonal_present_PK,mh_y_ksads_ss,ksads_20_132_t,
+adhd_hyperactive_runs_present_PK,mh_y_ksads_ss,ksads_14_402_t,
+cannabis_impact_role_present_PK,mh_y_ksads_ss,ksads_20_537_t,
+social_fear_excessive_present_PK,mh_y_ksads_ss,ksads_8_307_t,
+bipolar_increased_energy_present_PK,mh_y_ksads_ss,ksads_2_205_t,
+temper_outbursts_duration_12mo_PK,mh_y_ksads_ss,ksads_3_227_t,
+conduct_physical_fights_past_PK,mh_y_ksads_ss,ksads_16_103_t,
+worry_6mo_duration_present_PK,mh_y_ksads_ss,ksads_10_47_t,
+social_anxiety_duration_6mo_past_PK,mh_y_ksads_ss,ksads_8_313a_t,
+phobia_impairment_present_PK,mh_y_ksads_ss,ksads_9_39_t,
+adhd_hyperactive_motor_present_PK,mh_y_ksads_ss,ksads_14_419_t,
+sep_anxiety_distress_clinically_present_PK,mh_y_ksads_ss,ksads_7_295_t,
+bipolar_flight_of_ideas_present_PK,mh_y_ksads_ss,ksads_2_201_t,
+MDD_KSADS_C,mh_y_ksads_ss,ksads_1_840_t,MDD Diagnosis (KSADS)
+wish_dead_past_B_k,mh_y_ksads_ss,ksads_23_146_t,
+suicidal_ideation_present_B_k,mh_y_ksads_ss,ksads_23_147_t,Suicidal Ideation (KSADS)
+suicide_attempt_present_B_k,mh_y_ksads_ss,ksads_23_149_t,Suicide Attempt (KSADS)
+suicide_attempt_past_B_k,mh_y_ksads_ss,ksads_23_150_t,Past Suicide Attempt (KSADS)
+self_injury_present_B_k,mh_y_ksads_ss,ksads_23_807_t,
+self_injury_thought_die_present_B_k,mh_y_ksads_ss,ksads_23_808_t,
+suicidal_method_ideation_present_B_k,mh_y_ksads_ss,ksads_23_809_t,
+suicidal_intent_act_present_B_k,mh_y_ksads_ss,ksads_23_810_t,
+suicidal_plan_present_B_k,mh_y_ksads_ss,ksads_23_811_t,
+suicidal_preparations_present_B_k,mh_y_ksads_ss,ksads_23_812_t,
+suicide_attempt_aborted_present_B_k,mh_y_ksads_ss,ksads_23_813_t,
+suicide_attempt_method_present_B_k,mh_y_ksads_ss,ksads_23_814_t,
+suicide_attempt_thought_die_present_B_k,mh_y_ksads_ss,ksads_23_815_t,
+self_injury_intent_die_past_B_k,mh_y_ksads_ss,ksads_23_816_t,
+self_injury_thought_die_past_B_k,mh_y_ksads_ss,ksads_23_817_t,
+suicidal_method_ideation_past_B_k,mh_y_ksads_ss,ksads_23_818_t,
+suicidal_intent_act_past_B_k,mh_y_ksads_ss,ksads_23_819_t,
+suicidal_plan_past_B_k,mh_y_ksads_ss,ksads_23_820_t,
+suicidal_preparations_past_B_k,mh_y_ksads_ss,ksads_23_821_t,
+suicide_attempt_aborted_past_B_k,mh_y_ksads_ss,ksads_23_822_t,
+num_suicide_attempts_past_B_k,mh_y_ksads_ss,ksads_23_823_t,
+suicide_attempt_method_past_B_k,mh_y_ksads_ss,ksads_23_824_t,
+suicide_expect_die_past_B_k,mh_y_ksads_ss,ksads_23_825_t,
+dx_self_injury_no_suicide_intent_present,mh_y_ksads_ss,ksads_23_945_t,
+dx_suicidal_ideation_passive_present,mh_y_ksads_ss,ksads_23_946_t,
+dx_suicidal_ideation_active_nonspecific_present,mh_y_ksads_ss,ksads_23_947_t,
+dx_suicidal_ideation_active_method_present,mh_y_ksads_ss,ksads_23_948_t,
+dx_suicidal_ideation_active_intent_present,mh_y_ksads_ss,ksads_23_949_t,
+dx_suicidal_ideation_active_plan_present,mh_y_ksads_ss,ksads_23_950_t,
+dx_preparatory_suicidal_actions_present,mh_y_ksads_ss,ksads_23_951_t,
+dx_interrupted_suicide_attempt_present,mh_y_ksads_ss,ksads_23_952_t,
+dx_aborted_suicide_attempt_present,mh_y_ksads_ss,ksads_23_953_t,
+dx_suicide_attempt_present,mh_y_ksads_ss,ksads_23_954_t,
+dx_no_suicidal_ideation_behavior_present,mh_y_ksads_ss,ksads_23_955_t,
+dx_self_injury_no_suicide_intent_past,mh_y_ksads_ss,ksads_23_956_t,
+dx_suicidal_ideation_passive_past,mh_y_ksads_ss,ksads_23_957_t,
+dx_suicidal_ideation_active_nonspecific_past,mh_y_ksads_ss,ksads_23_958_t,
+dx_suicidal_ideation_active_method_past,mh_y_ksads_ss,ksads_23_959_t,
+dx_suicidal_ideation_active_intent_past,mh_y_ksads_ss,ksads_23_960_t,
+dx_suicidal_ideation_active_plan_past,mh_y_ksads_ss,ksads_23_961_t,
+dx_preparatory_suicidal_actions_past,mh_y_ksads_ss,ksads_23_962_t,
+dx_interrupted_suicide_attempt_past,mh_y_ksads_ss,ksads_23_963_t,
+dx_aborted_suicide_attempt_past,mh_y_ksads_ss,ksads_23_964_t,
+dx_suicide_attempt_past,mh_y_ksads_ss,ksads_23_965_t,
+dx_no_suicidal_ideation_behavior_past,mh_y_ksads_ss,ksads_23_966_t,
+g_lifeevents_ss_k,mh_y_le,ple_y_ss_total_good,Positive Events (Y)
+b_lifeevents_ss_k,mh_y_le,ple_y_ss_total_bad,Adverse Life Events (Y)
+b_lifeevents_affected_ss_k,mh_y_le,ple_y_ss_affected_bad_sum,Adverse Events Impact (Y)
+up_negative_urgency_ss_k,mh_y_upps,upps_y_ss_negative_urgency,Neg. Urgency (Y)
+up_lackofplanning_ss_k,mh_y_upps,upps_y_ss_lack_of_planning,Lack Planning (Y)
+up_sensationseeking_ss_k,mh_y_upps,upps_y_ss_sensation_seeking,Sensation Seek. (Y)
+up_positiveurgency_ss_k,mh_y_upps,upps_y_ss_positive_urgency,Pos. Urgency (Y)
+up_lackperseverance_ss_k,mh_y_upps,upps_y_ss_lack_of_perseverance,Lack Persever. (Y)
+bis_behav_inhibition_ss_k,mh_y_bisbas,bis_y_ss_bis_sum,Behav. Inhibit. (Y)
+bis_reward_responsive_ss_k,mh_y_bisbas,bis_y_ss_bas_rr,Reward Resp. (Y)
+bis_drive_ss_k,mh_y_bisbas,bis_y_ss_bas_drive,Drive (Y)
+bis_funseeking_ss_k,mh_y_bisbas,bis_y_ss_bas_fs,Fun Seeking (Y)
+mania_7up_ss_k,mh_y_7up,sup_y_ss_sum,Mania Symptoms (Y)
+emoreg_sup_control_k,mh_y_erq,erq_feelings_control,Suppresses: Control
+emoreg_reapp_happy_k,mh_y_erq,erq_feelings_happy,Reappraises: Happy
+emoreg_sup_hide_k,mh_y_erq,erq_feelings_hide,Suppresses: Hides
+emoreg_reapp_less_bad_k,mh_y_erq,erq_feelings_less_bad,Reappraises: Less Bad
+emoreg_sup_self_k,mh_y_erq,erq_feelings_self,Suppresses: Self
+emoreg_reapp_thoughts_k,mh_y_erq,erq_feelings_think,Reappraises: Thoughts
+emoreg_sup_ss_k,derived,,Suppression (Sum)
+emoreg_reapp_ss_k,derived,,Reappraisal (Sum)
+internalizingsum_k,mh_y_bpm,bpm_y_scr_internal_r,
+acts_immature_k,mh_y_bpm,bpm_1_y,Immature (Y)
+argues_frequently_k,mh_y_bpm,bpm_2_y,
+difficulty_finishing_tasks_k,mh_y_bpm,bpm_3_y,Task Continuity  (Y)
+trouble_concentrating_k,mh_y_bpm,bpm_4_y,Concentration Trouble (Y)
+restless_k,mh_y_bpm,bpm_5_y,
+destroys_others_things_k,mh_y_bpm,bpm_6_y,Destroys Others (Y)
+disobeys_parents_k,mh_y_bpm,bpm_7_y,Par. Disobeys (Y)
+disobeys_at_school_k,mh_y_bpm,bpm_8_y,Disobeys School (Y)
+feels_worthless_k,mh_y_bpm,bpm_9_y,
+impulsive_actions_k,mh_y_bpm,bpm_10_y,
+anxious_fearful_k,mh_y_bpm,bpm_11_y,Anxious (Y)
+feels_guilty_k,mh_y_bpm,bpm_12_y,
+self_conscious_k,mh_y_bpm,bpm_13_y,Self-Conscious (Y)
+easily_distracted_k,mh_y_bpm,bpm_14_y,Distracted Easily (Y)
+stubborn_k,mh_y_bpm,bpm_15_y,Stubborn (Y)
+hot_temper_k,mh_y_bpm,bpm_16_y,Hot Temper (Y)
+threatens_others_k,mh_y_bpm,bpm_17_y,
+unhappy_depressed_k,mh_y_bpm,bpm_18_y,
+excessive_worry_k,mh_y_bpm,bpm_19_y,
+pa_attentive,mh_y_poa,poa_nihtb_1_y,Attentive
+pa_delighted,mh_y_poa,poa_nihtb_2_y,Delighted
+pa_calm,mh_y_poa,poa_nihtb_3_y,Calm
+pa_at_ease,mh_y_poa,poa_nihtb_4_y,At Ease
+pa_enthusiastic,mh_y_poa,poa_nihtb_5_y,Enthusiastic
+pa_interested,mh_y_poa,poa_nihtb_6_y,Interested
+pa_confident,mh_y_poa,poa_nihtb_7_y,Confident
+pa_energetic,mh_y_poa,poa_nihtb_8_y,Energetic
+pa_concentrate,mh_y_poa,poa_nihtb_9_y,Concentrating
+pa_sum_k,mh_y_poa,poa_y_ss_sum,Physical Activity (Child Report)
+anxdep_D_p,mh_p_cbcl,cbcl_scr_syn_anxdep_t,
+attention_D_p,mh_p_cbcl,cbcl_scr_syn_attention_t,
+aggressive_D_p,mh_p_cbcl,cbcl_scr_syn_aggressive_t,
+internal_D_p,mh_p_cbcl,cbcl_scr_syn_internal_t,Internalizing Spectra
+external_D_p,mh_p_cbcl,cbcl_scr_syn_external_t,Externalizing Spectra
+somatic_problems_D_p,mh_p_cbcl,cbcl_scr_syn_somatic_t,
+social_problems_D_p,mh_p_cbcl,cbcl_scr_syn_social_t,Social Problems
+thought_disorder_D_p,mh_p_cbcl,cbcl_scr_syn_thought_t,Thought Disorder (Syndrome)
+rule_breaking_D_p,mh_p_cbcl,cbcl_scr_syn_rulebreak_t,
+depress_D_p,mh_p_cbcl,cbcl_scr_dsm5_depress_t,Depression Syndrome (w/ Secondary Features)
+depress_D_p_raw,mh_p_cbcl,cbcl_scr_dsm5_depress_r,
+anxdisord_D_p,mh_p_cbcl,cbcl_scr_dsm5_anxdisord_t,Anxiety (Syndrome)
+anxdisord_D_p_raw,mh_p_cbcl,cbcl_scr_dsm5_anxdisord_r,
+adhd_D_p,mh_p_cbcl,cbcl_scr_dsm5_adhd_t,ADHD (Syndrome)
+ocd_D_p,mh_p_cbcl,cbcl_scr_07_ocd_t,
+g_lifeevents_ss_p,mh_p_le,ple_p_ss_total_good,Positive Events
+b_lifeevents_ss_p,mh_p_le,ple_p_ss_total_bad,Adverse Life Events
+b_lifeevents_affected_ss_p,mh_p_le,ple_p_ss_affected_bad_sum,Adverse Events Impact
+difficulty_goingtosleep_p,ph_p_sds,sleepdisturb5_p,Onset Difficulty
+difficulty_wakingup_p,ph_p_sds,sleepdisturb22_p,Wake Difficulty
+daytime_sleepiness_p,ph_p_sds,sleepdisturb25_p,
+bdefs_calm_down_p,nc_p_bdef,bdefs_calm_down_p,Difficulty Calming Down
+bdefs_consequences_p,nc_p_bdef,bdefs_consequences_p,Ignores Consequences
+bdefs_distract_upset_p,nc_p_bdef,bdefs_distract_upset_p,Emotional Refocusing Deficit
+bdefs_explain_idea_p,nc_p_bdef,bdefs_explain_idea_p,Poor Idea Expression
+bdefs_explain_pt_p,nc_p_bdef,bdefs_explain_pt_p,Unfocused Explanations
+bdefs_explain_seq_p,nc_p_bdef,bdefs_explain_seq_p,Poor Sequential Narration
+bdefs_impulsive_action_p,nc_p_bdef,bdefs_impulsive_action_p,Impulsive Actions
+bdefs_inconsistant_p,nc_p_bdef,bdefs_inconsistant_p,Inconsistent Performance
+bdefs_lazy_p,nc_p_bdef,bdefs_lazy_p,Appears Unmotivated
+bdefs_process_info_p,nc_p_bdef,bdefs_process_info_p,Slow Info Processing
+bdefs_rechannel_p,nc_p_bdef,bdefs_rechannel_p,Poor Emotion Redirection
+bdefs_sense_time_p,nc_p_bdef,bdefs_sense_time_p,Poor Time Sense
+bdefs_shortcuts_p,nc_p_bdef,bdefs_shortcuts_p,Takes Shortcuts
+bdefs_stop_think_p,nc_p_bdef,bdefs_stop_think_p,Acts Before Thinking
+easily_offended_p,mh_p_eatq,eatq_irritated_crit_p,Easily Offended
+blames_others_p,mh_p_eatq,eatq_blame_p,Blames Others
+sociable_p,mh_p_eatq,eatq_social_p,Sociable
+rarely_sad_p,mh_p_eatq,eatq_hardly_sad_p,
+school_excitement_p,mh_p_eatq,eatq_school_excite_p,School Excite.
+not_critical_others_p,mh_p_eatq,eatq_no_criticize_p,Non-Critical
+procrastination_p,mh_p_eatq,eatq_puts_off_p,
+friendly_p,mh_p_eatq,eatq_friendly_p,
+scared_dark_p,mh_p_eatq,eatq_dark_scared_p,Scared Dark
+disagreeable_p,mh_p_eatq,eatq_disagree_p,Disagreeable
+goal_continuity_p,mh_p_eatq,eatq_stick_to_plan_p,Goal Persistence
+death_in_family_p,mh_p_le,ple_died_p,Fam. Death
+experienced_crime_p,mh_p_le,ple_crime_p,Crime Victim
+positive_finance_p,mh_p_le,ple_financial_p,Negative Financial Dynamics
+parents_argue_more_p,mh_p_le,ple_argue_p,Fam. Par. Argue
+family_emotionprob_p,mh_p_le,ple_mh_p,Fam. Emot. Prob.
+parents_divorced_p,mh_p_le,ple_separ_p,Fam. Par. Divorced
+child_newschool_p,mh_p_le,ple_school_p,New School
+family_move_p,mh_p_le,ple_move_p,Fam. Moved
+druguse_alcohol_p,mh_p_cbcl,cbcl_q02_p,Child Alcohol
+argues_p,mh_p_cbcl,cbcl_q03_p,Argumentative
+doesnt_finish_p,mh_p_cbcl,cbcl_q04_p,Failure to Finish Tasks
+enjoys_little_p,mh_p_cbcl,cbcl_q05_p,Enjoys Little
+bad_toilet_habits_p,mh_p_cbcl,cbcl_q06_p,Encopresis
+bragadocious_p,mh_p_cbcl,cbcl_q07_p,Bragging
+cant_concentrate_p,mh_p_cbcl,cbcl_q08_p,Concentration Difficulty
+obsessions_p,mh_p_cbcl,cbcl_q09_p,
+sleep_problems_p,mh_p_cbcl,cbcl_q100_p,Sleep Problems
+skips_school_p,mh_p_cbcl,cbcl_q101_p,
+low_energy_p,mh_p_cbcl,cbcl_q102_p,
+sad_p,mh_p_cbcl,cbcl_q103_p,Sad
+loud_p,mh_p_cbcl,cbcl_q104_p,
+druguse_other_p,mh_p_cbcl,cbcl_q105_p,Child Oth. Drug
+vandalism_p,mh_p_cbcl,cbcl_q106_p,
+wets_other_p,mh_p_cbcl,cbcl_q107_p,
+wets_bed_p,mh_p_cbcl,cbcl_q108_p,Enuresis
+whines_p,mh_p_cbcl,cbcl_q109_p,Whines
+hyperactive_p,mh_p_cbcl,cbcl_q10_p,Hyperactive
+wishes_other_sex_p,mh_p_cbcl,cbcl_q110_p,Other Gender Wish
+withdrawn_p,mh_p_cbcl,cbcl_q111_p,Withdrawn
+worries_p,mh_p_cbcl,cbcl_q112_p,Worries
+clings_to_adults_p,mh_p_cbcl,cbcl_q11_p,Clingy
+lonely_p,mh_p_cbcl,cbcl_q12_p,
+confused_p,mh_p_cbcl,cbcl_q13_p,
+cries_p,mh_p_cbcl,cbcl_q14_p,
+cruel_animals_p,mh_p_cbcl,cbcl_q15_p,
+bullies_others_p,mh_p_cbcl,cbcl_q16_p,Bullies Others
+daydreams_p,mh_p_cbcl,cbcl_q17_p,
+selfharm_p,mh_p_cbcl,cbcl_q18_p,
+demands_attention_p,mh_p_cbcl,cbcl_q19_p,Demands Attention
+destroys_own_things_p,mh_p_cbcl,cbcl_q20_p,Destroys Own Stuff
+destroys_others_things_p,mh_p_cbcl,cbcl_q21_p,Destroys Others Stuff
+disobedient_home_p,mh_p_cbcl,cbcl_q22_p,Disobedient Home
+disobedient_school_p,mh_p_cbcl,cbcl_q23_p,Disobedient School
+bad_diet_p,mh_p_cbcl,cbcl_q24_p,Bad Diet
+doesnt_get_along_p,mh_p_cbcl,cbcl_q25_p,Peer Conflict
+no_guilt_p,mh_p_cbcl,cbcl_q26_p,
+easily_jealous_p,mh_p_cbcl,cbcl_q27_p,Easily Jealous
+breaks_rules_p,mh_p_cbcl,cbcl_q28_p,Rule-Breaking
+fears_excl_school_p,mh_p_cbcl,cbcl_q29_p,Fears Exclusion
+fears_school_p,mh_p_cbcl,cbcl_q30_p,School Fear
+fears_being_bad_p,mh_p_cbcl,cbcl_q31_p,Guilt Fear
+perfectionist_p,mh_p_cbcl,cbcl_q32_p,Perfectionist
+feels_unloved_p,mh_p_cbcl,cbcl_q33_p,
+paranoid_p,mh_p_cbcl,cbcl_q34_p,Paranoid
+feels_inferior_p,mh_p_cbcl,cbcl_q35_p,
+accident_prone_p,mh_p_cbcl,cbcl_q36_p,
+fights_p,mh_p_cbcl,cbcl_q37_p,Fights
+teased_p,mh_p_cbcl,cbcl_q38_p,
+disobedient_friends_p,mh_p_cbcl,cbcl_q39_p,
+hears_voices_p,mh_p_cbcl,cbcl_q40_p,
+impulsive_p,mh_p_cbcl,cbcl_q41_p,Impulsive
+prefer_alone_p,mh_p_cbcl,cbcl_q42_p,
+lying_p,mh_p_cbcl,cbcl_q43_p,Dishonest/Deceptive
+bites_fingernails_p,mh_p_cbcl,cbcl_q44_p,
+nervous_general_p,mh_p_cbcl,cbcl_q45_p,Generally Nervous
+nervous_twitching_p,mh_p_cbcl,cbcl_q46_p,Nervous Twitching
+nightmares_p,mh_p_cbcl,cbcl_q47_p,Nightmares
+not_liked_p,mh_p_cbcl,cbcl_q48_p,Not Liked By Others
+constipated_p,mh_p_cbcl,cbcl_q49_p,Constipation
+anxious_p,mh_p_cbcl,cbcl_q50_p,
+dizzy_p,mh_p_cbcl,cbcl_q51_p,
+guilty_p,mh_p_cbcl,cbcl_q52_p,Feels Guilty
+overeating_p,mh_p_cbcl,cbcl_q53_p,
+overtired_p,mh_p_cbcl,cbcl_q54_p,
+overweight_p,mh_p_cbcl,cbcl_q55_p,
+body_aches_p,mh_p_cbcl,cbcl_q56a_p,Body Aches
+frequent_headaches_p,mh_p_cbcl,cbcl_q56b_p,Headaches
+nausea_p,mh_p_cbcl,cbcl_q56c_p,Nausea
+eye_problems_p,mh_p_cbcl,cbcl_q56d_p,Eye Problems
+skin_problems_p,mh_p_cbcl,cbcl_q56e_p,Skin Problems
+frequent_stomachaches_p,mh_p_cbcl,cbcl_q56f_p,Stomachaches
+vomiting_p,mh_p_cbcl,cbcl_q56g_p,Vomiting
+unknown_physical_problems_p,mh_p_cbcl,cbcl_q56h_p,
+attacks_others_p,mh_p_cbcl,cbcl_q57_p,
+picks_skin_p,mh_p_cbcl,cbcl_q58_p,
+plays_genitals_public_p,mh_p_cbcl,cbcl_q59_p,
+plays_genitals_excessive_p,mh_p_cbcl,cbcl_q60_p,
+poor_schoolwork_p,mh_p_cbcl,cbcl_q61_p,
+clumsy_p,mh_p_cbcl,cbcl_q62_p,
+prefers_older_kids_p,mh_p_cbcl,cbcl_q63_p,
+prefers_younger_kids_p,mh_p_cbcl,cbcl_q64_p,
+doesnt_talk_p,mh_p_cbcl,cbcl_q65_p,
+compulsions_p,mh_p_cbcl,cbcl_q66_p,
+runs_away_p,mh_p_cbcl,cbcl_q67_p,
+screams_p,mh_p_cbcl,cbcl_q68_p,
+secretive_p,mh_p_cbcl,cbcl_q69_p,Secretive
+hallucinations_p,mh_p_cbcl,cbcl_q70_p,
+easily_embarrassed_p,mh_p_cbcl,cbcl_q71_p,Easily Embarrassed
+pyromaniac_p,mh_p_cbcl,cbcl_q72_p,
+sexual_problems_p,mh_p_cbcl,cbcl_q73_p,
+clowning_p,mh_p_cbcl,cbcl_q74_p,
+shy_p,mh_p_cbcl,cbcl_q75_p,
+sleeps_little_p,mh_p_cbcl,cbcl_q76_p,Little Sleep
+sleeps_alot_p,mh_p_cbcl,cbcl_q77_p,Excess Sleep
+easily_distracted_p,mh_p_cbcl,cbcl_q78_p,Distracted Easily
+speech_problems_p,mh_p_cbcl,cbcl_q79_p,
+blank_stare_p,mh_p_cbcl,cbcl_q80_p,
+steals_home_p,mh_p_cbcl,cbcl_q81_p,Steals Home
+steals_outside_p,mh_p_cbcl,cbcl_q82_p,Steals Outside
+hordes_p,mh_p_cbcl,cbcl_q83_p,
+strange_behavior_p,mh_p_cbcl,cbcl_q84_p,
+strange_ideas_p,mh_p_cbcl,cbcl_q85_p,Strange Ideas
+stubborn_p,mh_p_cbcl,cbcl_q86_p,Stubborn
+mood_fluctuations_p,mh_p_cbcl,cbcl_q87_p,
+sulks_p,mh_p_cbcl,cbcl_q88_p,
+suspicious_p,mh_p_cbcl,cbcl_q89_p,
+obscene_language_p,mh_p_cbcl,cbcl_q90_p,
+suicidal_p,mh_p_cbcl,cbcl_q91_p,Suicidal Ideation
+sleepwalks_p,mh_p_cbcl,cbcl_q92_p,
+loquacious_p,mh_p_cbcl,cbcl_q93_p,Loquacious
+teases_p,mh_p_cbcl,cbcl_q94_p,
+temper_tantrums_p,mh_p_cbcl,cbcl_q95_p,Tantrums
+sexual_thoughts_p,mh_p_cbcl,cbcl_q96_p,
+threatens_others_p,mh_p_cbcl,cbcl_q97_p,Threatens
+thumbsucking_p,mh_p_cbcl,cbcl_q98_p,
+druguse_tobacco,mh_p_cbcl,cbcl_q99_p,Child Tobacco
+avoids_eyecontact_p,mh_p_ssrs,ssrs_16_p,Avoids Eye Contact
+difficulty_making_friends_p,mh_p_ssrs,ssrs_18_p,Difficulty Making Friends
+regarded_weird_p,mh_p_ssrs,ssrs_29_p,Regarded as Odd
+bad_conversational_flow_p,mh_p_ssrs,ssrs_35_p,Poor Conversational Flow
+narrow_interests_p,mh_p_ssrs,ssrs_39_p,Narrow Interests
+sensory_sensitivity_p,mh_p_ssrs,ssrs_42_p,Sensory Sensitivity
+concentration_on_parts_p,mh_p_ssrs,ssrs_58_p,Detail Fixation
+face_understanding,mh_p_ssrs,ssrs_15r_p,Poor Social Cue Reading
+car_accident_hurt_p,mh_p_ksads_ptsd,ksads_ptsd_raw_754_p,Car Accident
+big_accident_need_treatment_p,mh_p_ksads_ptsd,ksads_ptsd_raw_755_p,Major Accident
+fire_victim_p,mh_p_ksads_ptsd,ksads_ptsd_raw_756_p,Fire Victim
+natural_disaster_victim_p,mh_p_ksads_ptsd,ksads_ptsd_raw_757_p,Nat. Disaster
+terrorism_victim_p,mh_p_ksads_ptsd,ksads_ptsd_raw_758_p,Terrorism Exp.
+war_death_witness_p,mh_p_ksads_ptsd,ksads_ptsd_raw_759_p,War Witness
+stabbing_shooting_witness_p,mh_p_ksads_ptsd,ksads_ptsd_raw_760_p,Violence Witness
+stabbing_shooting_victim_community_p,mh_p_ksads_ptsd,ksads_ptsd_raw_761_p,Community Violence
+stabbing_shooting_victim_home_p,mh_p_ksads_ptsd,ksads_ptsd_raw_762_p,Home Violence
+beating_victim_home_p,mh_p_ksads_ptsd,ksads_ptsd_raw_763_p,Beaten at Home
+stranger_threatened_child_victim_p,mh_p_ksads_ptsd,ksads_ptsd_raw_764_p,Stranger Threat
+family_threatened_child_victim_p,mh_p_ksads_ptsd,ksads_ptsd_raw_765_p,Family Threat
+adult_family_fighting_victim_p,mh_p_ksads_ptsd,ksads_ptsd_raw_766_p,Adult Fighting
+domestic_child_sexually_abuse_victim_p,mh_p_ksads_ptsd,ksads_ptsd_raw_767_p,Dom. Sex Abuse
+foreign_child_sexually_abuse_victim_p,mh_p_ksads_ptsd,ksads_ptsd_raw_768_p,Non-Dom. Sex Abuse
+peer_child_sexually_abuse_victim_p,mh_p_ksads_ptsd,ksads_ptsd_raw_769_p,Peer Sex Abuse
+sudden_death_in_family_p,mh_p_ksads_ptsd,ksads_ptsd_raw_770_p,Sudden Death
+repeated_grade,mh_y_ksads_bg,kbi_y_grade_repeat,Repeated Grade
+grades_dropped,mh_y_ksads_bg,kbi_y_drop_in_grades,Grades Dropped
+school_detension_suspension,mh_y_ksads_bg,kbi_y_det_susp,Detention/Susp.
+child_selfaware_p,mh_p_ders,ders_attn_awareness_p,Self-Awareness
+child_clear_feelings_p,mh_p_ders,ders_clear_feelings_p,Emotion Clarity
+child_emotion_overwhelm_p,mh_p_ders,ders_emotion_overwhelm_p,Emotion Overwhelm
+child_feelings_attentive_p,mh_p_ders,ders_feelings_attentive_p,Attentive to Feelings
+child_feelings_care_p,mh_p_ders,ders_feelings_care_p,Cares About Feelings
+child_feelings_know_p,mh_p_ders,ders_feelings_know_p,Knows Own Feelings
+child_upset_acknowledge_p,mh_p_ders,ders_upset_ack_p,Acknowledges Upset
+child_upset_angry_p,mh_p_ders,ders_upset_angry_p,Upset: Gets Angry
+child_upset_ashamed_p,mh_p_ders,ders_upset_ashamed_p,Upset: Feels Ashamed
+child_upset_control_p,mh_p_ders,ders_upset_behavior_control_p,Upset: Maintains Control
+child_upset_bad_behavior_p,mh_p_ders,ders_upset_behavior_p,Upset: Bad Behavior
+child_upset_better_p,mh_p_ders,ders_upset_better_p,Upset: Recovers Quickly
+child_upset_poor_concentrate_p,mh_p_ders,ders_upset_concentrate_p,Upset: Can't Concentrate
+child_upset_no_control_p,mh_p_ders,ders_upset_control_p,Upset: No Self-Control
+child_upset_depressed_p,mh_p_ders,ders_upset_depressed_p,
+child_upset_unproductive_p,mh_p_ders,ders_upset_difficulty_p,Upset: Unproductive
+child_upset_embarrassed_p,mh_p_ders,ders_upset_embarrassed_p,Upset: Embarrassed
+child_upset_emotions_overwhelm_p,mh_p_ders,ders_upset_emotion_overwhelm_p,Upset: Emotionally Overwhelmed
+child_upset_bad_esteem_p,mh_p_ders,ders_upset_esteem_p,Upset: Low Self-Esteem
+child_upset_nothing_better_p,mh_p_ders,ders_upset_feel_better_p,Upset: Feels Hopeless
+child_upset_fixation_p,mh_p_ders,ders_upset_fixation_p,Upset: Ruminative Fixation
+child_upset_bad_focus_p,mh_p_ders,ders_upset_focus_p,Upset: Poor Focus
+child_upset_guilty_p,mh_p_ders,ders_upset_guilty_p,Upset: Feels Guilty
+child_upset_irritated_p,mh_p_ders,ders_upset_irritation_p,Upset: Irritable
+child_upset_longtime_better_p,mh_p_ders,ders_upset_long_time_better_p,Upset: Slow to Recover
+child_upset_lose_control_p,mh_p_ders,ders_upset_lose_control_p,Upset: Loses Control
+child_upset_out_control_p,mh_p_ders,ders_upset_out_control_p,Upset: Out of Control
+child_upset_longtime_p,mh_p_ders,ders_upset_time_p,Upset: Prolonged Duration
+child_upset_weak_p,mh_p_ders,ders_upset_weak_p,Upset: Feels Weak
+bird_task_score,nc_y_bird,bird_scr_score,
+bored_quickly_K,sd_y_pd,socialdev_cpd_004,
+boredom_with_repetition_K,sd_y_pd,socialdev_cpd_029,
+depanx_c,derived,,
+depadhd_c,derived,,Depression × ADHD Comorbidity Class
+anxadhd_c,derived,,
+anxocd_c,derived,,
+crysflu_c,derived,,Cryst./Fluid Comp.
+asd_ssrs_sum,derived,,ASD Symptoms (SSRS Total)
+asdadhd_c,derived,,ASD × ADHD Comorbidity Class
+protein_sugar_c,derived,,
+child_religion,abcd_p_demo,demo_relig_v2,Child Religion
+religious_service_frequency,abcd_p_demo,demo_yrs_1,Fam. Service Freq.
+relig_importance,abcd_p_demo,demo_yrs_2,Fam. Relig. Import.
+parent_education,abcd_p_demo,demo_prnt_ed_v2,Par. Education
+parent_age,abcd_p_demo,demo_prnt_age_v2,Fam. Par. Age
+struggle_food_expenses,abcd_p_demo,demo_fam_exp1_v2,Food Hardship
+sex_P,abcd_p_demo,demo_prnt_gender_id_v2,Biological Sex
+num_brothers_p,mh_p_fhx,fhx_3a_p,Fam. Num. Brothers
+num_sisters_p,mh_p_fhx,fhx_3b_p,Fam. Num. Sisters
+mother_dep,mh_p_fhx,famhx_ss_moth_prob_dprs_p,
+father_dep,mh_p_fhx,famhx_ss_fath_prob_dprs_p,
+parent_dep,mh_p_fhx,famhx_ss_momdad_dprs_p,
+parent_suicide,mh_p_fhx,famhx_ss_momdad_scd_p,
+father_alcohol,mh_p_fhx,famhx_ss_fath_prob_alc_p,Father Alcohol
+mother_alcohol,mh_p_fhx,famhx_ss_moth_prob_alc_p,Mother Alcohol
+father_druguse,mh_p_fhx,famhx_ss_fath_prob_dg_p,Father Drugs
+mother_druguse,mh_p_fhx,famhx_ss_moth_prob_dg_p,Mother Drugs
+d_grandfather_dep,mh_p_fhx,famhx_ss_patgf_prob_dprs_p,Pat. Grandpa Dep.
+d_grandmother_dep,mh_p_fhx,famhx_ss_patgm_prob_dprs_p,Pat. Grandma Dep.
+m_grandfather_dep,mh_p_fhx,famhx_ss_matgf_prob_dprs_p,Mat. Grandpa Dep.
+m_grandmother_dep,mh_p_fhx,famhx_ss_matgm_prob_dprs_p,Mat. Grandma Dep.
+sibling_dep,mh_p_fhx,famhx_ss_fulsibo1_prob_dprs_p,
+father_mania,mh_p_fhx,famhx_ss_fath_prob_ma_p,Father Mania
+mother_mania,mh_p_fhx,famhx_ss_moth_prob_ma_p,Mother Mania
+father_trouble,mh_p_fhx,famhx_ss_fath_prob_trb_p,Father Trouble
+parent_hospitalized_emo,mh_p_fhx,famhx_ss_parent_hspd_p,Par. Hospitalized
+parent_therapy_emo,mh_p_fhx,famhx_ss_parent_prf_p,Par. Therapy
+birth_weight_p,ph_p_dhx,birth_weight_lbs,Birth Weight
+prescriptionmed_pregnancy_p,ph_p_dhx,devhx_8_prescript_med,Prenatal Use Rx
+cigs_before_pregnancy_p,ph_p_dhx,devhx_8_cigs_per_day,Pre-Preg. Cigs
+alcohol_before_pregnancy_p,ph_p_dhx,devhx_8_alcohol,Pre-Preg. Alcohol
+weed_before_pregnancy_p,ph_p_dhx,devhx_8_marijuana,Pre-Preg. Cannabis
+cocaine_before_pregnancy_p,ph_p_dhx,devhx_8_coc_crack,Pre-Preg. Cocaine
+heroin_before_pregnancy_p,ph_p_dhx,devhx_8_her_morph,Pre-Preg. Heroin
+drugs_before_pregnancy_p,ph_p_dhx,devhx_8_other2_name_2,Pre-Preg. Drugs
+cigs_during_pregnancy_p,ph_p_dhx,devhx_9_tobacco,Prenatal Cigs
+alcohol_during_pregnancy_p,ph_p_dhx,devhx_9_alcohol,Prenatal Use Alcohol
+drinksperweek_during_pregnancy_p,ph_p_dhx,devhx_9_alchohol_avg,Prenatal Use Drinks/Wk
+weed_during_pregnancy_p,ph_p_dhx,devhx_9_marijuana,Prenatal Use Cannabis
+cocaine_during_pregnancy_p,ph_p_dhx,devhx_9_coc_crack,Prenatal Use Cocaine
+heroin_during_pregnancy_p,ph_p_dhx,devhx_9_her_morph,Prenatal Use Heroin
+drugs_during_pregnancy_p,ph_p_dhx,devhx_9_other2_name_2,Prenatal Use Drugs
+caffeine_during_pregnancy_p,ph_p_dhx,devhx_caffeine_amt,Prenatal Use Caffeine
+premature_birth_p,ph_p_dhx,devhx_12a_p,
+months_breastfed_p,ph_p_dhx,devhx_18_p,
+firstwords_months_p,ph_p_dhx,devhx_19d_p,
+asd_diagnosis,abcd_p_screen,scrn_asd,
+schizophrenia_diagnosis,abcd_p_screen,scrn_schiz,
+desc_african_AFR_B,abcd_p_demo,demo_race_a_p___11,African Desc.
+desc_alaska_native_AMR_B,abcd_p_demo,demo_race_a_p___13,Alaska Native
+desc_native_american_AMR_B,abcd_p_demo,demo_race_a_p___12,Native Amer.
+desc_chinese_EAS_B,abcd_p_demo,demo_race_a_p___19,Chinese Desc.
+desc_japanese_EAS_B,abcd_p_demo,demo_race_a_p___21,Japanese Desc.
+desc_korean_EAS_B,abcd_p_demo,demo_race_a_p___22,Korean Desc.
+desc_vietnamese_EAS_B,abcd_p_demo,demo_race_a_p___23,Vietnamese Desc.
+desc_other_south_asian_SAS_B,abcd_p_demo,demo_race_a_p___24,Oth. S. Asian
+desc_european_EUR_B,abcd_p_demo,demo_race_a_p___10,European Desc.
+desc_asian_indian_SAS_B,abcd_p_demo,demo_race_a_p___18,South Asian Desc.
+desc_latin_B,abcd_p_demo,demo_ethn_v2,Latino Desc.
+L_site_id,abcd_y_lt,site_id_l,ABCD Site
+resid_density,led_l_densbld,reshist_addr1_d1a,Pop. Density
+resid_walkability,led_l_walk,reshist_addr1_walkindex,Walkability
+resid_prox_roads,led_l_roadprox,reshist_addr1_proxrd,Road Proximity
+resid_crime_tot,led_l_crime,reshist_addr1_grndtot,Total Crime
+resid_crime_violent,led_l_crime,reshist_addr1_p1vlnt,Violent Crime
+resid_crime_drug,led_l_crime,reshist_addr1_drugtot,Drug Crime
+resid_crime_dui,led_l_crime,reshist_addr1_dui,DUI Rate
+resid_lead_risk_poverty,led_l_leadrisk,reshist_addr1_leadrisk_poverty,Lead Risk Pov.
+resid_lead_risk_houses_perc,led_l_leadrisk,reshist_addr1_leadrisk_housing,Lead Risk Hsg.
+resid_lead_risk,led_l_leadrisk,reshist_addr1_leadrisk,Lead Risk
+resid_no2_avg,led_l_no2,reshist_addr1_no2_2016_aavg,NO2 Exposure
+resid_pm25_avg,led_l_pm25,reshist_addr1_pm252016aa,PM2.5 Exposure
+resid_sexism,led_l_biasgender,reshist_state_sexism_factor,Area Sexism
+resid_sex_orient_bias,led_l_biasgender,reshist_state_so_factor,Area SO Bias
+resid_immigrant_bias,led_l_biasimm,reshist_state_immigrant_factor,Immigrant Bias
+resid_racism,led_l_biasrace,reshist_state_racism_factor,Area Racism
+delta_depress_D_p,derived,,Depression Syndrome (Change Score)
+delta_depress_D_p_raw,derived,,
+delta_anxdisord_D_p,derived,,Change in Anxiety
+delta_anxdisord_D_p_raw,derived,,
+delta_parent_internal_D_p,derived,,Change in Par. Internal.
+delta_adhd_D_p,derived,,Change in ADHD
+delta_not_liked_p,derived,,Change in Unliked
+delta_doesnt_get_along_p,derived,,Change in Peer Conflict
+delta_family_conflict_ss_p,derived,,Change in Fam. Conflict
+delta_family_conflict_ss_k,derived,,Change in Fam. Conflict (Y)
+delta_bad_grades,derived,,Change in Bad Grades
+delta_social_problems_D_p,derived,,Change in Social Problems
+delta_somatic_problems_D_p,derived,,Change in Somatic Issues
+delta_cant_concentrate_p,derived,,Change in Concentration Difficulty
+delta_worries_p,derived,,
+delta_bad_diet_p,derived,,Change in Bad Diet
+delta_atschool_total_problems_ss_t,derived,,Change in School Prob.
+delta_b_lifeevents_ss_p,derived,,Change in Bad Events
+delta_parent_days_drug_use_p,derived,,
+delta_parent_sleep_trouble_p,derived,,Change in Par. Sleep
+delta_parent_worries_about_family_p,derived,,Change in Par. Fam. Worry
+delta_parent_friendship_trouble_p,derived,,Change in Par. Friend Prob.
+delta_parent_poor_work_performance_p,derived,,Change in Par. Work Performance
+delta_parent_aches_pains_p,derived,,Change in Par. Aches
+delta_parent_not_liked_by_others_p,derived,,Change in Par. Unliked
+delta_parent_feels_overwhelmed_p,derived,,Change in Par. Overwhelmed
+delta_parent_feels_unloved_p,derived,,Change in Par. Feels Unloved
+delta_parent_bad_family_relationship_p,derived,,Change in Par. Fam. Relations
+delta_parent_worries_about_future_p,derived,,Change in Par. Future Worry
+delta_parent_worries_a_lot_p,derived,,Change in Par. Worries
+delta_parent_depressed_p,derived,,Change in Par. Depressed
+delta_parent_concentration_trouble_p,derived,,Change in Par. Concentration
+delta_parent_stubborn_irritable_p,derived,,Change in Par. Stubborn/Irritable
+delta_parent_drinks_too_much_p,derived,,Change in Par. Drinking
+delta_parent_financial_failures_p,derived,,Change in Par. Financial Failures
+delta_parent_meets_family_duties_p,derived,,Change in Par. Fulfills Fam. Responsibilities
+delta_parent_planning_trouble_p,derived,,Change in Par. Planning Trouble
+delta_parent_bad_relationships_p,derived,,Change in Par. General Relationship Quality
+delta_parent_drug_use_p,derived,,Change in Par. Drug Use
+delta_parent_somatic_problems_D_p,derived,,Change in Par. Somatic
+depress_update_p,derived,,Depression (Updated Composite)
+poor_schoolwork_p_reverse,derived,,
+sbt_core_depression,derived,,Mood/Depression (Primary Features)
+sbt_core_depression_raw,derived,,
+sbt_fatigue_sleep,derived,,Depression Subtype (Fatigue/Sleep)
+sbt_fatigue_sleep_raw,derived,,
+sbt_anxiety_depression,derived,,Depression Subtype (Anxiety/Depression Overlap)
+sbt_anxiety_depression_raw,derived,,
+sbt_guilt_hopelessness,derived,,Depression Subtype (Guilt/Hopelessness)
+sbt_guilt_hopelessness_raw,derived,,
+sbt_social_withdrawal,derived,,Depression Subtype (Social Withdrawal)
+sbt_social_withdrawal_raw,derived,,
+sbt_somatic_depression,derived,,Depression Subtype (Somatic)
+sbt_somatic_depression_raw,derived,,
+sbt_emotional_dysregulation,derived,,Depression Subtype (Emotional Dysregulation)
+sbt_emotional_dysregulation_raw,derived,,
+sbt_avoidance_fear,derived,,Depression Subtype (Avoidance/Fear)
+sbt_avoidance_fear_raw,derived,,
+sbt_aggression_irritability,derived,,Depression Subtype (Aggression/Irritability)
+sbt_aggression_irritability_raw,derived,,
+sbt_academic_cognitive,derived,,Depression Subtype (Poor Academic/Cognitive)
+sbt_academic_cognitive_raw,derived,,
+sbt_perfectionism_achievement,derived,,Depression Subtype (Perfectionism/High-Achievement)
+sbt_perfectionism_achievement_raw,derived,,
+sbt_well_being,derived,,Depression Subtype (Well-Being)
+sbt_well_being_raw,derived,,
+sbt_core_depression_delta_t0_t3,derived,,Mood/Depression (Change T0→T3)
+sbt_core_depression_delta_t0_t3_raw,derived,,
+delta_sbt_core_depression,derived,,Mood/Depression (Change Score)
+ale_ksads_sum_score_p,derived,,
+included_ale_self_report_threshold_4,derived,,
+included_ale_self_report_threshold_5,derived,,
+included_ale_parent_4_leq_2,derived,,
+included_ale_parent_5_leq_2,derived,,
+ale_leq_1_p_4,derived,,
+ale_leq_1_p_5,derived,,
+ale_leq_0_p_4,derived,,
+ale_leq_0_p_5,derived,,
+included_ale_parent_report,derived,,
+included_adi,derived,,
+included_family_conflict,derived,,
+included_severe_mh,derived,,
+included_drug_use,derived,,
+low_ale_children,derived,,
+low_ale_children_p,derived,,
+low_ale_children_p_all_time,derived,,
+low_ale_children_p_1,derived,,
+low_ale_children_p_all_time_1,derived,,
+tb_fluid_grouped,derived,,
+fitbit_veryactive_mins_grouped,derived,,
+fitbit_steps_grouped,derived,,
+socialmedia_hoursperday_k_grouped,derived,,
+area_deprivation_idx_grouped,derived,,
+parent_education_grouped,derived,,
+parent_age_grouped,derived,,Par. Age Group
+weight_grouped,derived,,
+feelsafe_at_school_k_grouped,derived,,
+bdefs_lazy_p_grouped,derived,,
+easily_offended_p_grouped,derived,,
+bad_grades_grouped,derived,,
+high_dep_cbcl,derived,,
+high_anx_cbcl,derived,,
+numID,derived,,
+dep_onset_rci_1.96,derived,,Depression Onset (RCI ≥ 1.96)
+dep_onset_rci_2.3,derived,,Depression Onset (RCI ≥ 2.3)
+dep_remission_rci_1.96,derived,,Depression Remission (RCI ≥ 1.96)
+dep_remission_rci_2.3,derived,,Depression Remission (RCI ≥ 2.3)
+dep_decrease_2sd,derived,,Depression Decrease (≥ 2 SD)
+dep_decrease_1.5sd,derived,,Depression Decrease (≥ 1.5 SD)
+dep_increase_2sd,derived,,Depression Increase (≥ 2 SD)
+dep_increase_1.5sd,derived,,Depression Increase (≥ 1.5 SD)
+sbt_core_dep_onset_rci_1.96,derived,,Mood/Depression Onset (RCI ≥ 1.96)
+sbt_core_dep_onset_rci_2.3,derived,,Mood/Depression Onset (RCI ≥ 2.3)
+sbt_core_dep_remission_rci_1.96,derived,,Mood/Depression Remission (RCI ≥ 1.96)
+sbt_core_dep_remission_rci_2.3,derived,,Mood/Depression Remission (RCI ≥ 2.3)
+sbt_core_dep_decrease_2sd,derived,,Mood/Depression Decrease (≥ 2 SD)
+sbt_core_dep_decrease_1.5sd,derived,,Mood/Depression Decrease (≥ 1.5 SD)
+sbt_core_dep_increase_2sd,derived,,Mood/Depression Increase (≥ 2 SD)
+sbt_core_dep_increase_1.5sd,derived,,Mood/Depression Increase (≥ 1.5 SD)
+parent_dep_onset_rci_1.96,derived,,Parent Depression Onset (RCI ≥ 1.96)
+parent_dep_onset_rci_2.3,derived,,Parent Depression Onset (RCI ≥ 2.3)
+parent_dep_remission_rci_1.96,derived,,Parent Depression Remission (RCI ≥ 1.96)
+parent_dep_remission_rci_2.3,derived,,Parent Depression Remission (RCI ≥ 2.3)
+parent_dep_decrease_2sd,derived,,Parent Depression Improved (≥ 2 SD)
+parent_dep_decrease_1.5sd,derived,,Parent Depression Improved (≥ 1.5 SD)
+parent_dep_increase_2sd,derived,,Parent Depression Changes (≥ 2 SD)
+parent_dep_increase_1.5sd,derived,,Parent Depression Changes (≥ 1.5 SD)
+high_ale,derived,,
+high_ale_severe_p_mh,derived,,
+depress_D_p_rev,derived,,Depression Syndrome (Reversed)
+top_10_depression,derived,,Depression (Top 10th Percentile)
+top_5_depression,derived,,Depression (Top 5th Percentile)
+top_10_sbt_core_depression,derived,,Mood/Depression (Top 10th Percentile)
+top_5_sbt_core_depression,derived,,Mood/Depression (Top 5th Percentile)
+latent_class_depression,derived,,Depression Latent Class
+pc_struct1,Struct,PC1,Struct PC1
+pc_struct2,Struct,PC2,Struct PC2
+pc_struct3,Struct,PC3,Struct PC3
+pc_struct4,Struct,PC4,Struct PC4
+pc_struct5,Struct,PC5,Struct PC5
+pc_struct6,Struct,PC6,Struct PC6
+pc_struct7,Struct,PC7,Struct PC7
+pc_struct8,Struct,PC8,Struct PC8
+pc_struct9,Struct,PC9,Struct PC9
+pc_struct10,Struct,PC10,Struct PC10
+pc_struct11,Struct,PC11,Struct PC11
+pc_struct12,Struct,PC12,Struct PC12
+pc_struct13,Struct,PC13,Struct PC13
+pc_struct14,Struct,PC14,Struct PC14
+pc_struct15,Struct,PC15,Struct PC15
+pc_struct16,Struct,PC16,Struct PC16
+pc_struct17,Struct,PC17,Struct PC17
+pc_struct18,Struct,PC18,Struct PC18
+pc_struct19,Struct,PC19,Struct PC19
+pc_struct20,Struct,PC20,Struct PC20
+pc_struct21,Struct,PC21,Struct PC21
+pc_struct22,Struct,PC22,Struct PC22
+pc_struct23,Struct,PC23,Struct PC23
+pc_struct24,Struct,PC24,Struct PC24
+pc_struct25,Struct,PC25,Struct PC25
+pc_struct26,Struct,PC26,Struct PC26
+pc_struct27,Struct,PC27,Struct PC27
+pc_struct28,Struct,PC28,Struct PC28
+pc_struct29,Struct,PC29,Struct PC29
+pc_struct30,Struct,PC30,Struct PC30
+pc_struct31,Struct,PC31,Struct PC31
+pc_struct32,Struct,PC32,Struct PC32
+pc_struct33,Struct,PC33,Struct PC33
+pc_struct34,Struct,PC34,Struct PC34
+pc_struct35,Struct,PC35,Struct PC35
+pc_struct36,Struct,PC36,Struct PC36
+pc_struct37,Struct,PC37,Struct PC37
+pc_struct38,Struct,PC38,Struct PC38
+pc_struct39,Struct,PC39,Struct PC39
+pc_struct40,Struct,PC40,Struct PC40
+pc_struct41,Struct,PC41,Struct PC41
+pc_struct42,Struct,PC42,Struct PC42
+pc_struct43,Struct,PC43,Struct PC43
+pc_struct44,Struct,PC44,Struct PC44
+pc_struct45,Struct,PC45,Struct PC45
+pc_struct46,Struct,PC46,Struct PC46
+pc_struct47,Struct,PC47,Struct PC47
+pc_struct48,Struct,PC48,Struct PC48
+pc_struct49,Struct,PC49,Struct PC49
+pc_struct50,Struct,PC50,Struct PC50
+pc_struct51,Struct,PC51,Struct PC51
+pc_struct52,Struct,PC52,Struct PC52
+pc_struct53,Struct,PC53,Struct PC53
+pc_struct54,Struct,PC54,Struct PC54
+pc_struct55,Struct,PC55,Struct PC55
+pc_struct56,Struct,PC56,Struct PC56
+pc_struct57,Struct,PC57,Struct PC57
+pc_struct58,Struct,PC58,Struct PC58
+pc_struct59,Struct,PC59,Struct PC59
+pc_struct60,Struct,PC60,Struct PC60
+pc_struct61,Struct,PC61,Struct PC61
+pc_struct62,Struct,PC62,Struct PC62
+pc_struct63,Struct,PC63,Struct PC63
+pc_struct64,Struct,PC64,Struct PC64
+pc_struct65,Struct,PC65,Struct PC65
+pc_struct66,Struct,PC66,Struct PC66
+pc_struct67,Struct,PC67,Struct PC67
+pc_struct68,Struct,PC68,Struct PC68
+pc_struct69,Struct,PC69,Struct PC69
+pc_struct70,Struct,PC70,Struct PC70
+pc_struct71,Struct,PC71,Struct PC71
+pc_struct72,Struct,PC72,Struct PC72
+pc_struct73,Struct,PC73,Struct PC73
+pc_struct74,Struct,PC74,Struct PC74
+pc_struct75,Struct,PC75,Struct PC75
+pc_SSTmri1,sst,PC1,SST-fMRI PC1
+pc_SSTmri2,sst,PC2,SST-fMRI PC2
+pc_SSTmri3,sst,PC3,SST-fMRI PC3
+pc_SSTmri4,sst,PC4,SST-fMRI PC4
+pc_SSTmri5,sst,PC5,SST-fMRI PC5
+pc_SSTmri6,sst,PC6,SST-fMRI PC6
+pc_SSTmri7,sst,PC7,SST-fMRI PC7
+pc_SSTmri8,sst,PC8,SST-fMRI PC8
+pc_SSTmri9,sst,PC9,SST-fMRI PC9
+pc_SSTmri10,sst,PC10,SST-fMRI PC10
+pc_SSTmri11,sst,PC11,SST-fMRI PC11
+pc_SSTmri12,sst,PC12,SST-fMRI PC12
+pc_SSTmri13,sst,PC13,SST-fMRI PC13
+pc_SSTmri14,sst,PC14,SST-fMRI PC14
+pc_SSTmri15,sst,PC15,SST-fMRI PC15
+pc_SSTmri16,sst,PC16,SST-fMRI PC16
+pc_SSTmri17,sst,PC17,SST-fMRI PC17
+pc_SSTmri18,sst,PC18,SST-fMRI PC18
+pc_SSTmri19,sst,PC19,SST-fMRI PC19
+pc_SSTmri20,sst,PC20,SST-fMRI PC20
+pc_SSTmri21,sst,PC21,SST-fMRI PC21
+pc_SSTmri22,sst,PC22,SST-fMRI PC22
+pc_SSTmri23,sst,PC23,SST-fMRI PC23
+pc_SSTmri24,sst,PC24,SST-fMRI PC24
+pc_SSTmri25,sst,PC25,SST-fMRI PC25
+pc_SSTmri26,sst,PC26,SST-fMRI PC26
+pc_SSTmri27,sst,PC27,SST-fMRI PC27
+pc_SSTmri28,sst,PC28,SST-fMRI PC28
+pc_SSTmri29,sst,PC29,SST-fMRI PC29
+pc_SSTmri30,sst,PC30,SST-fMRI PC30
+pc_SSTmri31,sst,PC31,SST-fMRI PC31
+pc_SSTmri32,sst,PC32,SST-fMRI PC32
+pc_SSTmri33,sst,PC33,SST-fMRI PC33
+pc_SSTmri34,sst,PC34,SST-fMRI PC34
+pc_SSTmri35,sst,PC35,SST-fMRI PC35
+pc_SSTmri36,sst,PC36,SST-fMRI PC36
+pc_SSTmri37,sst,PC37,SST-fMRI PC37
+pc_SSTmri38,sst,PC38,SST-fMRI PC38
+pc_SSTmri39,sst,PC39,SST-fMRI PC39
+pc_SSTmri40,sst,PC40,SST-fMRI PC40
+pc_SSTmri41,sst,PC41,SST-fMRI PC41
+pc_SSTmri42,sst,PC42,SST-fMRI PC42
+pc_SSTmri43,sst,PC43,SST-fMRI PC43
+pc_SSTmri44,sst,PC44,SST-fMRI PC44
+pc_SSTmri45,sst,PC45,SST-fMRI PC45
+pc_SSTmri46,sst,PC46,SST-fMRI PC46
+pc_SSTmri47,sst,PC47,SST-fMRI PC47
+pc_SSTmri48,sst,PC48,SST-fMRI PC48
+pc_SSTmri49,sst,PC49,SST-fMRI PC49
+pc_SSTmri50,sst,PC50,SST-fMRI PC50
+pc_SSTmri51,sst,PC51,SST-fMRI PC51
+pc_SSTmri52,sst,PC52,SST-fMRI PC52
+pc_SSTmri53,sst,PC53,SST-fMRI PC53
+pc_SSTmri54,sst,PC54,SST-fMRI PC54
+pc_SSTmri55,sst,PC55,SST-fMRI PC55
+pc_SSTmri56,sst,PC56,SST-fMRI PC56
+pc_SSTmri57,sst,PC57,SST-fMRI PC57
+pc_SSTmri58,sst,PC58,SST-fMRI PC58
+pc_SSTmri59,sst,PC59,SST-fMRI PC59
+pc_SSTmri60,sst,PC60,SST-fMRI PC60
+pc_SSTmri61,sst,PC61,SST-fMRI PC61
+pc_SSTmri62,sst,PC62,SST-fMRI PC62
+pc_SSTmri63,sst,PC63,SST-fMRI PC63
+pc_SSTmri64,sst,PC64,SST-fMRI PC64
+pc_SSTmri65,sst,PC65,SST-fMRI PC65
+pc_SSTmri66,sst,PC66,SST-fMRI PC66
+pc_SSTmri67,sst,PC67,SST-fMRI PC67
+pc_SSTmri68,sst,PC68,SST-fMRI PC68
+pc_SSTmri69,sst,PC69,SST-fMRI PC69
+pc_SSTmri70,sst,PC70,SST-fMRI PC70
+pc_SSTmri71,sst,PC71,SST-fMRI PC71
+pc_SSTmri72,sst,PC72,SST-fMRI PC72
+pc_SSTmri73,sst,PC73,SST-fMRI PC73
+pc_SSTmri74,sst,PC74,SST-fMRI PC74
+pc_SSTmri75,sst,PC75,SST-fMRI PC75
+pc_nbackmri1,nback,PC1,NBack-fMRI PC1
+pc_nbackmri2,nback,PC2,NBack-fMRI PC2
+pc_nbackmri3,nback,PC3,NBack-fMRI PC3
+pc_nbackmri4,nback,PC4,NBack-fMRI PC4
+pc_nbackmri5,nback,PC5,NBack-fMRI PC5
+pc_nbackmri6,nback,PC6,NBack-fMRI PC6
+pc_nbackmri7,nback,PC7,NBack-fMRI PC7
+pc_nbackmri8,nback,PC8,NBack-fMRI PC8
+pc_nbackmri9,nback,PC9,NBack-fMRI PC9
+pc_nbackmri10,nback,PC10,NBack-fMRI PC10
+pc_nbackmri11,nback,PC11,NBack-fMRI PC11
+pc_nbackmri12,nback,PC12,NBack-fMRI PC12
+pc_nbackmri13,nback,PC13,NBack-fMRI PC13
+pc_nbackmri14,nback,PC14,NBack-fMRI PC14
+pc_nbackmri15,nback,PC15,NBack-fMRI PC15
+pc_nbackmri16,nback,PC16,NBack-fMRI PC16
+pc_nbackmri17,nback,PC17,NBack-fMRI PC17
+pc_nbackmri18,nback,PC18,NBack-fMRI PC18
+pc_nbackmri19,nback,PC19,NBack-fMRI PC19
+pc_nbackmri20,nback,PC20,NBack-fMRI PC20
+pc_nbackmri21,nback,PC21,NBack-fMRI PC21
+pc_nbackmri22,nback,PC22,NBack-fMRI PC22
+pc_nbackmri23,nback,PC23,NBack-fMRI PC23
+pc_nbackmri24,nback,PC24,NBack-fMRI PC24
+pc_nbackmri25,nback,PC25,NBack-fMRI PC25
+pc_nbackmri26,nback,PC26,NBack-fMRI PC26
+pc_nbackmri27,nback,PC27,NBack-fMRI PC27
+pc_nbackmri28,nback,PC28,NBack-fMRI PC28
+pc_nbackmri29,nback,PC29,NBack-fMRI PC29
+pc_nbackmri30,nback,PC30,NBack-fMRI PC30
+pc_nbackmri31,nback,PC31,NBack-fMRI PC31
+pc_nbackmri32,nback,PC32,NBack-fMRI PC32
+pc_nbackmri33,nback,PC33,NBack-fMRI PC33
+pc_nbackmri34,nback,PC34,NBack-fMRI PC34
+pc_nbackmri35,nback,PC35,NBack-fMRI PC35
+pc_nbackmri36,nback,PC36,NBack-fMRI PC36
+pc_nbackmri37,nback,PC37,NBack-fMRI PC37
+pc_nbackmri38,nback,PC38,NBack-fMRI PC38
+pc_nbackmri39,nback,PC39,NBack-fMRI PC39
+pc_nbackmri40,nback,PC40,NBack-fMRI PC40
+pc_nbackmri41,nback,PC41,NBack-fMRI PC41
+pc_nbackmri42,nback,PC42,NBack-fMRI PC42
+pc_nbackmri43,nback,PC43,NBack-fMRI PC43
+pc_nbackmri44,nback,PC44,NBack-fMRI PC44
+pc_nbackmri45,nback,PC45,NBack-fMRI PC45
+pc_nbackmri46,nback,PC46,NBack-fMRI PC46
+pc_nbackmri47,nback,PC47,NBack-fMRI PC47
+pc_nbackmri48,nback,PC48,NBack-fMRI PC48
+pc_nbackmri49,nback,PC49,NBack-fMRI PC49
+pc_nbackmri50,nback,PC50,NBack-fMRI PC50
+pc_nbackmri51,nback,PC51,NBack-fMRI PC51
+pc_nbackmri52,nback,PC52,NBack-fMRI PC52
+pc_nbackmri53,nback,PC53,NBack-fMRI PC53
+pc_nbackmri54,nback,PC54,NBack-fMRI PC54
+pc_nbackmri55,nback,PC55,NBack-fMRI PC55
+pc_nbackmri56,nback,PC56,NBack-fMRI PC56
+pc_nbackmri57,nback,PC57,NBack-fMRI PC57
+pc_nbackmri58,nback,PC58,NBack-fMRI PC58
+pc_nbackmri59,nback,PC59,NBack-fMRI PC59
+pc_nbackmri60,nback,PC60,NBack-fMRI PC60
+pc_nbackmri61,nback,PC61,NBack-fMRI PC61
+pc_nbackmri62,nback,PC62,NBack-fMRI PC62
+pc_nbackmri63,nback,PC63,NBack-fMRI PC63
+pc_nbackmri64,nback,PC64,NBack-fMRI PC64
+pc_nbackmri65,nback,PC65,NBack-fMRI PC65
+pc_nbackmri66,nback,PC66,NBack-fMRI PC66
+pc_nbackmri67,nback,PC67,NBack-fMRI PC67
+pc_nbackmri68,nback,PC68,NBack-fMRI PC68
+pc_nbackmri69,nback,PC69,NBack-fMRI PC69
+pc_nbackmri70,nback,PC70,NBack-fMRI PC70
+pc_nbackmri71,nback,PC71,NBack-fMRI PC71
+pc_nbackmri72,nback,PC72,NBack-fMRI PC72
+pc_nbackmri73,nback,PC73,NBack-fMRI PC73
+pc_nbackmri74,nback,PC74,NBack-fMRI PC74
+pc_nbackmri75,nback,PC75,NBack-fMRI PC75
+pc_rsFMRI1,RSFMRI,PC1,RS-fMRI PC1
+pc_rsFMRI2,RSFMRI,PC2,RS-fMRI PC2
+pc_rsFMRI3,RSFMRI,PC3,RS-fMRI PC3
+pc_rsFMRI4,RSFMRI,PC4,RS-fMRI PC4
+pc_rsFMRI5,RSFMRI,PC5,RS-fMRI PC5
+pc_rsFMRI6,RSFMRI,PC6,RS-fMRI PC6
+pc_rsFMRI7,RSFMRI,PC7,RS-fMRI PC7
+pc_rsFMRI8,RSFMRI,PC8,RS-fMRI PC8
+pc_rsFMRI9,RSFMRI,PC9,RS-fMRI PC9
+pc_rsFMRI10,RSFMRI,PC10,RS-fMRI PC10
+pc_rsFMRI11,RSFMRI,PC11,RS-fMRI PC11
+pc_rsFMRI12,RSFMRI,PC12,RS-fMRI PC12
+pc_rsFMRI13,RSFMRI,PC13,RS-fMRI PC13
+pc_rsFMRI14,RSFMRI,PC14,RS-fMRI PC14
+pc_rsFMRI15,RSFMRI,PC15,RS-fMRI PC15
+pc_rsFMRI16,RSFMRI,PC16,RS-fMRI PC16
+pc_rsFMRI17,RSFMRI,PC17,RS-fMRI PC17
+pc_rsFMRI18,RSFMRI,PC18,RS-fMRI PC18
+pc_rsFMRI19,RSFMRI,PC19,RS-fMRI PC19
+pc_rsFMRI20,RSFMRI,PC20,RS-fMRI PC20
+pc_rsFMRI21,RSFMRI,PC21,RS-fMRI PC21
+pc_rsFMRI22,RSFMRI,PC22,RS-fMRI PC22
+pc_rsFMRI23,RSFMRI,PC23,RS-fMRI PC23
+pc_rsFMRI24,RSFMRI,PC24,RS-fMRI PC24
+pc_rsFMRI25,RSFMRI,PC25,RS-fMRI PC25
+pc_rsFMRI26,RSFMRI,PC26,RS-fMRI PC26
+pc_rsFMRI27,RSFMRI,PC27,RS-fMRI PC27
+pc_rsFMRI28,RSFMRI,PC28,RS-fMRI PC28
+pc_rsFMRI29,RSFMRI,PC29,RS-fMRI PC29
+pc_rsFMRI30,RSFMRI,PC30,RS-fMRI PC30
+pc_rsFMRI31,RSFMRI,PC31,RS-fMRI PC31
+pc_rsFMRI32,RSFMRI,PC32,RS-fMRI PC32
+pc_rsFMRI33,RSFMRI,PC33,RS-fMRI PC33
+pc_rsFMRI34,RSFMRI,PC34,RS-fMRI PC34
+pc_rsFMRI35,RSFMRI,PC35,RS-fMRI PC35
+pc_rsFMRI36,RSFMRI,PC36,RS-fMRI PC36
+pc_rsFMRI37,RSFMRI,PC37,RS-fMRI PC37
+pc_rsFMRI38,RSFMRI,PC38,RS-fMRI PC38
+pc_rsFMRI39,RSFMRI,PC39,RS-fMRI PC39
+pc_rsFMRI40,RSFMRI,PC40,RS-fMRI PC40
+pc_rsFMRI41,RSFMRI,PC41,RS-fMRI PC41
+pc_rsFMRI42,RSFMRI,PC42,RS-fMRI PC42
+pc_rsFMRI43,RSFMRI,PC43,RS-fMRI PC43
+pc_rsFMRI44,RSFMRI,PC44,RS-fMRI PC44
+pc_rsFMRI45,RSFMRI,PC45,RS-fMRI PC45
+pc_rsFMRI46,RSFMRI,PC46,RS-fMRI PC46
+pc_rsFMRI47,RSFMRI,PC47,RS-fMRI PC47
+pc_rsFMRI48,RSFMRI,PC48,RS-fMRI PC48
+pc_rsFMRI49,RSFMRI,PC49,RS-fMRI PC49
+pc_rsFMRI50,RSFMRI,PC50,RS-fMRI PC50
+pc_rsFMRI51,RSFMRI,PC51,RS-fMRI PC51
+pc_rsFMRI52,RSFMRI,PC52,RS-fMRI PC52
+pc_rsFMRI53,RSFMRI,PC53,RS-fMRI PC53
+pc_rsFMRI54,RSFMRI,PC54,RS-fMRI PC54
+pc_rsFMRI55,RSFMRI,PC55,RS-fMRI PC55
+pc_rsFMRI56,RSFMRI,PC56,RS-fMRI PC56
+pc_rsFMRI57,RSFMRI,PC57,RS-fMRI PC57
+pc_rsFMRI58,RSFMRI,PC58,RS-fMRI PC58
+pc_rsFMRI59,RSFMRI,PC59,RS-fMRI PC59
+pc_rsFMRI60,RSFMRI,PC60,RS-fMRI PC60
+pc_rsFMRI61,RSFMRI,PC61,RS-fMRI PC61
+pc_rsFMRI62,RSFMRI,PC62,RS-fMRI PC62
+pc_rsFMRI63,RSFMRI,PC63,RS-fMRI PC63
+pc_rsFMRI64,RSFMRI,PC64,RS-fMRI PC64
+pc_rsFMRI65,RSFMRI,PC65,RS-fMRI PC65
+pc_rsFMRI66,RSFMRI,PC66,RS-fMRI PC66
+pc_rsFMRI67,RSFMRI,PC67,RS-fMRI PC67
+pc_rsFMRI68,RSFMRI,PC68,RS-fMRI PC68
+pc_rsFMRI69,RSFMRI,PC69,RS-fMRI PC69
+pc_rsFMRI70,RSFMRI,PC70,RS-fMRI PC70
+pc_rsFMRI71,RSFMRI,PC71,RS-fMRI PC71
+pc_rsFMRI72,RSFMRI,PC72,RS-fMRI PC72
+pc_rsFMRI73,RSFMRI,PC73,RS-fMRI PC73
+pc_rsFMRI74,RSFMRI,PC74,RS-fMRI PC74
+pc_rsFMRI75,RSFMRI,PC75,RS-fMRI PC75
+pc_midfmri1,mid,PC1,MID-fMRI PC1
+pc_midfmri2,mid,PC2,MID-fMRI PC2
+pc_midfmri3,mid,PC3,MID-fMRI PC3
+pc_midfmri4,mid,PC4,MID-fMRI PC4
+pc_midfmri5,mid,PC5,MID-fMRI PC5
+pc_midfmri6,mid,PC6,MID-fMRI PC6
+pc_midfmri7,mid,PC7,MID-fMRI PC7
+pc_midfmri8,mid,PC8,MID-fMRI PC8
+pc_midfmri9,mid,PC9,MID-fMRI PC9
+pc_midfmri10,mid,PC10,MID-fMRI PC10
+pc_midfmri11,mid,PC11,MID-fMRI PC11
+pc_midfmri12,mid,PC12,MID-fMRI PC12
+pc_midfmri13,mid,PC13,MID-fMRI PC13
+pc_midfmri14,mid,PC14,MID-fMRI PC14
+pc_midfmri15,mid,PC15,MID-fMRI PC15
+pc_midfmri16,mid,PC16,MID-fMRI PC16
+pc_midfmri17,mid,PC17,MID-fMRI PC17
+pc_midfmri18,mid,PC18,MID-fMRI PC18
+pc_midfmri19,mid,PC19,MID-fMRI PC19
+pc_midfmri20,mid,PC20,MID-fMRI PC20
+pc_midfmri21,mid,PC21,MID-fMRI PC21
+pc_midfmri22,mid,PC22,MID-fMRI PC22
+pc_midfmri23,mid,PC23,MID-fMRI PC23
+pc_midfmri24,mid,PC24,MID-fMRI PC24
+pc_midfmri25,mid,PC25,MID-fMRI PC25
+pc_midfmri26,mid,PC26,MID-fMRI PC26
+pc_midfmri27,mid,PC27,MID-fMRI PC27
+pc_midfmri28,mid,PC28,MID-fMRI PC28
+pc_midfmri29,mid,PC29,MID-fMRI PC29
+pc_midfmri30,mid,PC30,MID-fMRI PC30
+pc_midfmri31,mid,PC31,MID-fMRI PC31
+pc_midfmri32,mid,PC32,MID-fMRI PC32
+pc_midfmri33,mid,PC33,MID-fMRI PC33
+pc_midfmri34,mid,PC34,MID-fMRI PC34
+pc_midfmri35,mid,PC35,MID-fMRI PC35
+pc_midfmri36,mid,PC36,MID-fMRI PC36
+pc_midfmri37,mid,PC37,MID-fMRI PC37
+pc_midfmri38,mid,PC38,MID-fMRI PC38
+pc_midfmri39,mid,PC39,MID-fMRI PC39
+pc_midfmri40,mid,PC40,MID-fMRI PC40
+pc_midfmri41,mid,PC41,MID-fMRI PC41
+pc_midfmri42,mid,PC42,MID-fMRI PC42
+pc_midfmri43,mid,PC43,MID-fMRI PC43
+pc_midfmri44,mid,PC44,MID-fMRI PC44
+pc_midfmri45,mid,PC45,MID-fMRI PC45
+pc_midfmri46,mid,PC46,MID-fMRI PC46
+pc_midfmri47,mid,PC47,MID-fMRI PC47
+pc_midfmri48,mid,PC48,MID-fMRI PC48
+pc_midfmri49,mid,PC49,MID-fMRI PC49
+pc_midfmri50,mid,PC50,MID-fMRI PC50
+pc_midfmri51,mid,PC51,MID-fMRI PC51
+pc_midfmri52,mid,PC52,MID-fMRI PC52
+pc_midfmri53,mid,PC53,MID-fMRI PC53
+pc_midfmri54,mid,PC54,MID-fMRI PC54
+pc_midfmri55,mid,PC55,MID-fMRI PC55
+pc_midfmri56,mid,PC56,MID-fMRI PC56
+pc_midfmri57,mid,PC57,MID-fMRI PC57
+pc_midfmri58,mid,PC58,MID-fMRI PC58
+pc_midfmri59,mid,PC59,MID-fMRI PC59
+pc_midfmri60,mid,PC60,MID-fMRI PC60
+pc_midfmri61,mid,PC61,MID-fMRI PC61
+pc_midfmri62,mid,PC62,MID-fMRI PC62
+pc_midfmri63,mid,PC63,MID-fMRI PC63
+pc_midfmri64,mid,PC64,MID-fMRI PC64
+pc_midfmri65,mid,PC65,MID-fMRI PC65
+pc_midfmri66,mid,PC66,MID-fMRI PC66
+pc_midfmri67,mid,PC67,MID-fMRI PC67
+pc_midfmri68,mid,PC68,MID-fMRI PC68
+pc_midfmri69,mid,PC69,MID-fMRI PC69
+pc_midfmri70,mid,PC70,MID-fMRI PC70
+pc_midfmri71,mid,PC71,MID-fMRI PC71
+pc_midfmri72,mid,PC72,MID-fMRI PC72
+pc_midfmri73,mid,PC73,MID-fMRI PC73
+pc_midfmri74,mid,PC74,MID-fMRI PC74
+pc_midfmri75,mid,PC75,MID-fMRI PC75
+pc_DTI1,DTIRSI,PC1,DTI PC1
+pc_DTI2,DTIRSI,PC2,DTI PC2
+pc_DTI3,DTIRSI,PC3,DTI PC3
+pc_DTI4,DTIRSI,PC4,DTI PC4
+pc_DTI5,DTIRSI,PC5,DTI PC5
+pc_DTI6,DTIRSI,PC6,DTI PC6
+pc_DTI7,DTIRSI,PC7,DTI PC7
+pc_DTI8,DTIRSI,PC8,DTI PC8
+pc_DTI9,DTIRSI,PC9,DTI PC9
+pc_DTI10,DTIRSI,PC10,DTI PC10
+pc_DTI11,DTIRSI,PC11,DTI PC11
+pc_DTI12,DTIRSI,PC12,DTI PC12
+pc_DTI13,DTIRSI,PC13,DTI PC13
+pc_DTI14,DTIRSI,PC14,DTI PC14
+pc_DTI15,DTIRSI,PC15,DTI PC15
+pc_DTI16,DTIRSI,PC16,DTI PC16
+pc_DTI17,DTIRSI,PC17,DTI PC17
+pc_DTI18,DTIRSI,PC18,DTI PC18
+pc_DTI19,DTIRSI,PC19,DTI PC19
+pc_DTI20,DTIRSI,PC20,DTI PC20
+pc_DTI21,DTIRSI,PC21,DTI PC21
+pc_DTI22,DTIRSI,PC22,DTI PC22
+pc_DTI23,DTIRSI,PC23,DTI PC23
+pc_DTI24,DTIRSI,PC24,DTI PC24
+pc_DTI25,DTIRSI,PC25,DTI PC25
+pc_DTI26,DTIRSI,PC26,DTI PC26
+pc_DTI27,DTIRSI,PC27,DTI PC27
+pc_DTI28,DTIRSI,PC28,DTI PC28
+pc_DTI29,DTIRSI,PC29,DTI PC29
+pc_DTI30,DTIRSI,PC30,DTI PC30
+pc_DTI31,DTIRSI,PC31,DTI PC31
+pc_DTI32,DTIRSI,PC32,DTI PC32
+pc_DTI33,DTIRSI,PC33,DTI PC33
+pc_DTI34,DTIRSI,PC34,DTI PC34
+pc_DTI35,DTIRSI,PC35,DTI PC35
+pc_DTI36,DTIRSI,PC36,DTI PC36
+pc_DTI37,DTIRSI,PC37,DTI PC37
+pc_DTI38,DTIRSI,PC38,DTI PC38
+pc_DTI39,DTIRSI,PC39,DTI PC39
+pc_DTI40,DTIRSI,PC40,DTI PC40
+pc_DTI41,DTIRSI,PC41,DTI PC41
+pc_DTI42,DTIRSI,PC42,DTI PC42
+pc_DTI43,DTIRSI,PC43,DTI PC43
+pc_DTI44,DTIRSI,PC44,DTI PC44
+pc_DTI45,DTIRSI,PC45,DTI PC45
+pc_DTI46,DTIRSI,PC46,DTI PC46
+pc_DTI47,DTIRSI,PC47,DTI PC47
+pc_DTI48,DTIRSI,PC48,DTI PC48
+pc_DTI49,DTIRSI,PC49,DTI PC49
+pc_DTI50,DTIRSI,PC50,DTI PC50
+pc_DTI51,DTIRSI,PC51,DTI PC51
+pc_DTI52,DTIRSI,PC52,DTI PC52
+pc_DTI53,DTIRSI,PC53,DTI PC53
+pc_DTI54,DTIRSI,PC54,DTI PC54
+pc_DTI55,DTIRSI,PC55,DTI PC55
+pc_DTI56,DTIRSI,PC56,DTI PC56
+pc_DTI57,DTIRSI,PC57,DTI PC57
+pc_DTI58,DTIRSI,PC58,DTI PC58
+pc_DTI59,DTIRSI,PC59,DTI PC59
+pc_DTI60,DTIRSI,PC60,DTI PC60
+pc_DTI61,DTIRSI,PC61,DTI PC61
+pc_DTI62,DTIRSI,PC62,DTI PC62
+pc_DTI63,DTIRSI,PC63,DTI PC63
+pc_DTI64,DTIRSI,PC64,DTI PC64
+pc_DTI65,DTIRSI,PC65,DTI PC65
+pc_DTI66,DTIRSI,PC66,DTI PC66
+pc_DTI67,DTIRSI,PC67,DTI PC67
+pc_DTI68,DTIRSI,PC68,DTI PC68
+pc_DTI69,DTIRSI,PC69,DTI PC69
+pc_DTI70,DTIRSI,PC70,DTI PC70
+pc_DTI71,DTIRSI,PC71,DTI PC71
+pc_DTI72,DTIRSI,PC72,DTI PC72
+pc_DTI73,DTIRSI,PC73,DTI PC73
+pc_DTI74,DTIRSI,PC74,DTI PC74
+pc_DTI75,DTIRSI,PC75,DTI PC75
+pc_gene_aces1,gen_y_pihat,genetic_pc_1,Ancestry PC1
+pc_gene_aces2,gen_y_pihat,genetic_pc_2,Ancestry PC2
+pc_gene_aces3,gen_y_pihat,genetic_pc_3,Ancestry PC3
+pc_gene_aces4,gen_y_pihat,genetic_pc_4,Ancestry PC4
+pc_gene_aces5,gen_y_pihat,genetic_pc_5,Ancestry PC5
+pc_gene_aces6,gen_y_pihat,genetic_pc_6,Ancestry PC6
+pc_gene_aces7,gen_y_pihat,genetic_pc_7,Ancestry PC7
+pc_gene_aces8,gen_y_pihat,genetic_pc_8,Ancestry PC8
+pc_gene_aces9,gen_y_pihat,genetic_pc_9,Ancestry PC9
+pc_gene_aces10,gen_y_pihat,genetic_pc_10,Ancestry PC10
+pc_gene_aces11,gen_y_pihat,genetic_pc_11,Ancestry PC11
+pc_gene_aces12,gen_y_pihat,genetic_pc_12,Ancestry PC12
+pc_gene_aces13,gen_y_pihat,genetic_pc_13,Ancestry PC13
+pc_gene_aces14,gen_y_pihat,genetic_pc_14,Ancestry PC14
+pc_gene_aces15,gen_y_pihat,genetic_pc_15,Ancestry PC15
+pc_gene_aces16,gen_y_pihat,genetic_pc_16,Ancestry PC16
+pc_gene_aces17,gen_y_pihat,genetic_pc_17,Ancestry PC17
+pc_gene_aces18,gen_y_pihat,genetic_pc_18,Ancestry PC18
+pc_gene_aces19,gen_y_pihat,genetic_pc_19,Ancestry PC19
+pc_gene_aces20,gen_y_pihat,genetic_pc_20,Ancestry PC20
+pc_gene_aces21,gen_y_pihat,genetic_pc_21,Ancestry PC21
+pc_gene_aces22,gen_y_pihat,genetic_pc_22,Ancestry PC22
+pc_gene_aces23,gen_y_pihat,genetic_pc_23,Ancestry PC23
+pc_gene_aces24,gen_y_pihat,genetic_pc_24,Ancestry PC24
+pc_gene_aces25,gen_y_pihat,genetic_pc_25,Ancestry PC25
+pc_gene_aces26,gen_y_pihat,genetic_pc_26,Ancestry PC26
+pc_gene_aces27,gen_y_pihat,genetic_pc_27,Ancestry PC27
+pc_gene_aces28,gen_y_pihat,genetic_pc_28,Ancestry PC28
+pc_gene_aces29,gen_y_pihat,genetic_pc_29,Ancestry PC29
+pc_gene_aces30,gen_y_pihat,genetic_pc_30,Ancestry PC30
+pc_gene_aces31,gen_y_pihat,genetic_pc_31,Ancestry PC31
+pc_gene_aces32,gen_y_pihat,genetic_pc_32,Ancestry PC32
+rel_family_id,gen_y_pihat,rel_family_id,
