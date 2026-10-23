@@ -1,10 +1,10 @@
 # Changelog
 
-All notable changes are documented here. The project follows [Semantic Versioning](https://semver.org/).
+Changes are documented here. The project follows [Semantic Versioning](https://semver.org/).
 
 ## [2.0.0] - 2026-10-23
 
-Version 2 turns the published notebook into an installable, tested Python package. On the equivalence runs described in `docs/equivalence.md` it gives the same results as v1.0.0, apart from the deliberate changes listed under Changed.
+Version 2 changes transformed notebook into an installable & tested Python package. On the equivalence runs described in `docs/equivalence.md` it gives the same results as v1.0.0, apart from the deliberate changes listed under Changed.
 
 ### Added
 - `bpsp` package (`src/bpsp/`): one module per notebook cell, grouped into `data`, `models`, `analysis`, `reports`, `interpretation` and `validation`.
@@ -21,7 +21,6 @@ Version 2 turns the published notebook into an installable, tested Python packag
 - `bpsp.simulation`: a simulated panel with a known signal, used by the demo, the quickstart notebook and the known-answer tests.
 
 ### Changed
-- Adjusted R² is reported as missing (NaN) when the test rows do not exceed the number of predictors plus one, where the formula is undefined. v1.0.0 printed values above 1 in that case.
 - The main stage takes its CatBoost settings from `PIPELINE_MODEL_CONFIGS`, so `model_overrides` reach it. v1.0.0 kept a second copy of the same values in the runner. Defaults are unchanged.
 - The main stage reads the ensemble's metrics from `meta_model` directly. v1.0.0 first looked up an entry that never exists and printed `[WARNING] 'ensemble'` on every run.
 - Messages and figure titles name stages and settings instead of notebook cells, the Colab form or review points (`[POINT 1]` became `[nested_cv]`), and no longer say "Enhanced". The permutation report is titled after the CatBoost model it tests. A development note printed by the networks stage was removed.
