@@ -1,0 +1,68 @@
+[
+ {
+  "cell": 0
+ },
+ {
+  "cell": 1
+ },
+ {
+  "cell": 2
+ },
+ {
+  "cell": 4,
+  "params": {
+   "VAL_N_BOOTSTRAP": "50",
+   "VAL_N_OUTER": "3"
+  }
+ },
+ {
+  "cell": 5
+ },
+ {
+  "label": "model sizes",
+  "code": "PIPELINE_MODEL_CONFIGS['catboost']['iterations']=40; PIPELINE_MODEL_CONFIGS['xgboost']['n_estimators']=30; PIPELINE_MODEL_CONFIGS['random_forest']['n_estimators']=30"
+ },
+ {
+  "cell": 6,
+  "params": {
+   "split": "\"across_categories\"",
+   "tp_option": "'2'",
+   "batch_mode": "\"Child Depression Worsening\"",
+   "visualization_mode": "\"No Visuals\""
+  }
+ },
+ {
+  "cell": 7
+ },
+ {
+  "cell": 8
+ },
+ {
+  "cell": 12,
+  "params": {
+   "n_outer_folds": "3"
+  }
+ },
+ {
+  "cell": 21,
+  "params": {
+   "frr_n_bootstrap": "50"
+  }
+ },
+ {
+  "cell": 22,
+  "params": {
+   "rcal_n_bootstrap": "50"
+  }
+ },
+ {
+  "cell": 23
+ },
+ {
+  "cell": 24,
+  "params": {
+   "gpi_n_repeats": "2",
+   "gpi_top_k_features": "15"
+  }
+ }
+]

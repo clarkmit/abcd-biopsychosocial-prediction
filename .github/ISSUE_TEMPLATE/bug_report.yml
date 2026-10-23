@@ -1,0 +1,24 @@
+name: Bug report
+description: Something does not run or gives unexpected results
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: "Please do **not** paste ABCD data, participant-level outputs or identifiers. Reproduce with the simulated panel where possible."
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: How to reproduce
+      description: Config file (or the stages and settings you changed) and the command you ran.
+      render: yaml
+  - type: textarea
+    id: env
+    attributes:
+      label: Environment
+      description: Output of `bpsp --version`, Python version, OS, GPU (if any).

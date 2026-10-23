@@ -1,0 +1,19 @@
+| Module | Name | Rule |
+|---|---|---|
+| `src/bpsp/analysis/runner.py` | `create_ensemble_model` | F821 |
+| `src/bpsp/analysis/runner.py` | `integrate_shapiq_analysis` | F821 |
+| `src/bpsp/analysis/runner.py` | `root_mean_squared_error` | F821 |
+| `src/bpsp/interpretation/networks.py` | `FEATURE_TO_CATEGORY` | F821 |
+| `src/bpsp/interpretation/networks.py` | `results_dir_summary` | F821 |
+| `src/bpsp/models/stacking.py` | `X_train_subset` | F821 |
+| `src/bpsp/models/stacking.py` | `sk_auc` | F821 |
+| `src/bpsp/reports/sankey.py` | `_display_target` | F821 |
+| `src/bpsp/reports/sankey.py` | `bg_color` | F821 |
+| `src/bpsp/reports/sankey.py` | `node_edge_ext` | F821 |
+| `src/bpsp/reports/sankey.py` | `node_edge_int` | F821 |
+| `src/bpsp/reports/sankey.py` | `target_colors` | F821 |
+| `src/bpsp/reports/sankey.py` | `text_color` | F821 |
+| `src/bpsp/validation/stacking_audit.py` | `TabPFNClassifier` | F823 |
+| `src/bpsp/validation/stacking_audit.py` | `model` | F821 |
+| `src/bpsp/validation/stacking_audit.py` | `pipeline_model` | F821 |
+| `src/bpsp/validation/stratified.py` | `results_dir_summary` | F821 |

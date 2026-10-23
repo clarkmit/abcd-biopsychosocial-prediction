@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, please cite it as below and cite the accompanying article
+  (Roberts et al., under review at Nature). The exact code used for the article is
+  release v1.0.0, archived on Zenodo.
+title: "ABCD Biopsychosocial Prediction: high-dimensional ensemble stacking ML pipeline"
+type: software
+abstract: >-
+  High-dimensional ensemble stacking machine learning pipeline for hierarchical,
+  interactive, and dynamic prediction of psychiatric, cognitive, and social outcomes
+  in the ABCD Study. It compares the hierarchical, interactive, concurrent, and
+  prospective predictive capacities of biological, psychological, social, and
+  environmental measurement domains, within and across theoretically relevant
+  measurement categories, for depression, anxiety, ADHD, the internalizing and
+  externalizing spectra, and cognitive, educational, and social outcomes in
+  adolescents and their parents.
+authors:
+  - family-names: Roberts
+    given-names: Clark
+    email: Clark001@mit.edu
+    affiliation: Massachusetts Institute of Technology
+  - family-names: Fawnia
+    given-names: Zhafira E.
+version: 2.0.0
+date-released: "2026-10-23"
+license: MIT
+repository-code: "https://github.com/clarkmit/abcd-biopsychosocial-prediction"
+url: "https://clarkmit.github.io/abcd-biopsychosocial-prediction"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23540757
+    description: "Release v1.0.0, the version used for the article"
+keywords:
+  - machine learning
+  - computational psychiatry
+  - ABCD Study
+  - stacking ensemble
+  - biopsychosocial
+  - depression
+  - anxiety
+  - ADHD

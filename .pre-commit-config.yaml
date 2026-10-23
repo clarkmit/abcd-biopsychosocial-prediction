@@ -1,0 +1,43 @@
+# Install once with:  pre-commit install
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: check-added-large-files
+        args: ["--maxkb=10000"]
+      - id: check-merge-conflict
+      - id: check-yaml
+        args: ["--unsafe"]  # mkdocs.yml uses a !!python/name tag
+      - id: check-toml
+      - id: detect-private-key
+      - id: end-of-file-fixer
+        exclude: ^(paper|data)/
+      - id: trailing-whitespace
+        exclude: ^(paper|data)/
+
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.17.2
+    hooks:
+      - id: ruff-check
+        args: ["--fix"]
+      - id: ruff-format
+
+  - repo: https://github.com/Mateusz-Grzelinski/actionlint-py
+    rev: v1.7.12.25
+    hooks:
+      - id: actionlint
+
+  - repo: https://github.com/kynan/nbstripout
+    rev: 0.9.1
+    hooks:
+      - id: nbstripout
+        # the quickstart keeps its outputs (simulated data only) so it can be read without running it
+        exclude: ^(paper/|data/|notebooks/01_quickstart\.ipynb$)
+
+  - repo: local
+    hooks:
+      - id: no-participant-data
+        name: block ABCD participant data
+        entry: python tools/check_no_participant_data.py
+        language: system
+        types: [file]

@@ -1,0 +1,138 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  lint:
+    name: Lint and data guard
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - run: pip install "ruff==0.17.2" actionlint-py
+      - run: ruff check .
+      - run: ruff format --check .
+      - name: Workflow files
+        run: actionlint
+      - name: No participant data in the repository
+        run: git ls-files -z | xargs -0 python tools/check_no_participant_data.py
+
+  test:
+    name: Tests (Python ${{ matrix.python-version }})
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+      - run: pip install -e ".[dev]"
+      - name: Unit tests
+        run: pytest -m "not integration and not slow" --cov --cov-report=term --cov-report=xml
+      - name: End-to-end runs on the simulated panel
+        if: matrix.python-version == '3.12'
+        run: pytest -m integration
+      - uses: actions/upload-artifact@v7
+        if: matrix.python-version == '3.12'
+        with:
+          name: coverage
+          path: coverage.xml
+
+  types:
+    name: Type check
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -e ".[dev]"
+      - run: mypy
+
+  cli:
+    name: CLI demo
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -e .
+      - run: bpsp stages
+      - run: bpsp example-panel outputs/example_panel.csv --subjects 400
+      - run: bpsp run configs/ci_smoke.yaml --output-dir outputs/ci
+      - uses: actions/upload-artifact@v7
+        with:
+          name: demo-outputs
+          path: outputs/ci
+
+  notebook:
+    name: Quickstart notebook
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -e ".[notebooks]"
+      - name: Execute the notebook from top to bottom
+        run: jupyter nbconvert --to notebook --execute --ExecutePreprocessor.timeout=1800 --output-dir /tmp/executed notebooks/01_quickstart.ipynb
+
+  package:
+    name: Build and install the wheel
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install build
+      - run: python -m build
+      - name: Install the wheel in a clean environment
+        run: |
+          python -m venv /tmp/wheel-env
+          /tmp/wheel-env/bin/pip install dist/*.whl
+          cd /tmp && /tmp/wheel-env/bin/bpsp --version && /tmp/wheel-env/bin/bpsp stages
+
+  docs:
+    name: Documentation
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -e ".[dev,docs]"
+      - name: Generated reference pages are up to date
+        run: |
+          python tools/gen_docs.py
+          git diff --exit-code -- docs/ || (echo "Run 'python tools/gen_docs.py' and commit the result." && exit 1)
+      - run: mkdocs build --strict

@@ -1,0 +1,73 @@
+# ----------------------------------------------------------------------------
+# Data protection: ABCD data must never be committed (Data Use Certification).
+# Only the fully simulated panel in data/simulated/ and variable_map.csv are tracked.
+# Keep in sync with tools/check_no_participant_data.py.
+# ----------------------------------------------------------------------------
+# tabular and statistics-package formats
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.parquet
+*.feather
+*.arrow
+*.sav
+*.dta
+*.sas7bdat
+*.xpt
+*.RData
+*.rda
+*.rds
+# serialized Python / array / scientific formats
+*.pkl
+*.pickle
+*.joblib
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.mat
+*.nii
+*.db
+*.sqlite
+# archives
+*.zip
+*.gz
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.tar
+*.rar
+!data/simulated/CLEAN_ABCD_5_1_panel_simulated.csv
+!data/variable_map.csv
+
+# Run outputs
+outputs/
+runs/
+catboost_info/
+*.png
+*.pdf
+*.svg
+!docs/assets/**
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.eggs/
+
+# Tooling
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+coverage.xml
+htmlcov/
+site/
+.ipynb_checkpoints/
+.DS_Store

@@ -1,0 +1,77 @@
+site_name: ABCD Biopsychosocial Prediction
+site_description: High-dimensional ensemble stacking ML pipeline for hierarchical, interactive, and dynamic prediction of psychiatric, cognitive, and social outcomes in the ABCD Study
+site_url: https://clarkmit.github.io/abcd-biopsychosocial-prediction/
+repo_url: https://github.com/clarkmit/abcd-biopsychosocial-prediction
+repo_name: clarkmit/abcd-biopsychosocial-prediction
+edit_uri: edit/main/docs/
+
+# Generated tables are included into pages with pymdownx.snippets, not built as pages.
+exclude_docs: |
+  _generated/
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - search.highlight
+  palette:
+    - scheme: default
+      primary: indigo
+      toggle: { icon: material/brightness-7, name: Dark mode }
+    - scheme: slate
+      primary: indigo
+      toggle: { icon: material/brightness-4, name: Light mode }
+
+nav:
+  - Home: index.md
+  - Getting started:
+      - Installation: installation.md
+      - Quickstart: quickstart.md
+  - The science:
+      - Concepts: concepts.md
+      - Methods in brief: methods.md
+      - Reproducing the paper: reproducing.md
+  - Using the pipeline:
+      - Stages: stages.md
+      - Configuration: configuration.md
+  - Quality:
+      - Equivalence with v1.0.0: equivalence.md
+      - Testing: testing.md
+      - Known issues: known_issues.md
+  - Data and responsible use:
+      - Data access and governance: data.md
+      - Model card: model_card.md
+  - For developers:
+      - Architecture: architecture.md
+      - API reference: api.md
+  - Changelog: changelog.md
+  - Contributing: contributing.md
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: [src]
+          options:
+            show_source: false
+            docstring_style: numpy
+            members_order: source
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.snippets:
+      base_path: ["."]
+      check_paths: true

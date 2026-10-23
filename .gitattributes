@@ -1,0 +1,6 @@
+*.ipynb diff=jupyternotebook
+*.py text eol=lf
+*.md text eol=lf
+*.yaml text eol=lf
+data/simulated/*.csv -diff linguist-generated
+paper/*.ipynb linguist-generated

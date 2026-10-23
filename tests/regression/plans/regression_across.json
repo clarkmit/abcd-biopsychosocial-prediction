@@ -1,0 +1,86 @@
+[
+ {
+  "cell": 0
+ },
+ {
+  "cell": 1
+ },
+ {
+  "cell": 2
+ },
+ {
+  "cell": 4,
+  "params": {
+   "VAL_N_BOOTSTRAP": "50",
+   "VAL_N_OUTER": "3"
+  }
+ },
+ {
+  "cell": 5
+ },
+ {
+  "label": "model sizes",
+  "code": "PIPELINE_MODEL_CONFIGS['catboost']['iterations']=40; PIPELINE_MODEL_CONFIGS['xgboost']['n_estimators']=30; PIPELINE_MODEL_CONFIGS['random_forest']['n_estimators']=30"
+ },
+ {
+  "cell": 6,
+  "params": {
+   "target_options": "\"internal_D_p\"",
+   "split": "\"across_categories\"",
+   "tp_option": "'2'",
+   "batch_mode": "\"Single Target\"",
+   "visualization_mode": "\"Ensemble Consensus + Best SHAP\""
+  }
+ },
+ {
+  "cell": 9,
+  "params": {
+   "n_bootstrap": "50"
+  }
+ },
+ {
+  "cell": 11
+ },
+ {
+  "cell": 12,
+  "params": {
+   "n_outer_folds": "3"
+  }
+ },
+ {
+  "cell": 14,
+  "params": {
+   "n_outer_folds": "3",
+   "robustness_mode": "\"Both\""
+  }
+ },
+ {
+  "cell": 15,
+  "params": {
+   "n_permutations": "10",
+   "n_outer_folds": "3"
+  }
+ },
+ {
+  "cell": 21,
+  "params": {
+   "frr_n_bootstrap": "50"
+  }
+ },
+ {
+  "cell": 22,
+  "params": {
+   "rcal_n_bootstrap": "50"
+  }
+ },
+ {
+  "cell": 23
+ },
+ {
+  "cell": 24,
+  "params": {
+   "gpi_n_repeats": "2",
+   "gpi_top_k_features": "15"
+  }
+ }
+]

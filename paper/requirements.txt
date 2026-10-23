@@ -1,3 +1,6 @@
+# Package versions v1.0.0 was tested with (Python 3.13), from the v1.0.0 release,
+# plus pyyaml, ipython and jinja2, which the package needs.
+# Install with:  pip install -r paper/requirements.txt && pip install -e . --no-deps
 catboost==1.2.10
 xgboost==3.4.1
 scikit-learn==1.9.1
@@ -19,3 +22,6 @@ torch==2.14.1
 scipy==1.16.3
 joblib==1.6.0
 tqdm==4.70.1
+pyyaml==6.0.3
+ipython==9.17.1
+jinja2==3.1.6

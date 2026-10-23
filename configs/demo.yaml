@@ -1,0 +1,24 @@
+# Demonstration on a simulated panel with a known answer (no ABCD data needed).
+# Create the panel first, then run:
+#   bpsp example-panel outputs/example_panel.csv
+#   bpsp run configs/demo.yaml
+# The panel plants a signal at wave T2 in four predictors (bpsp.simulation.PLANTED_FEATURES);
+# a correct run ranks them at the top of the consensus importance (see the README, "Quick start").
+stages: [main, networks, base_learners]
+output_dir: outputs/demo
+
+# Smaller models than the published runs, so the demo finishes in a minute or two on a laptop CPU.
+model_overrides:
+  catboost: {iterations: 100}
+  xgboost: {n_estimators: 100}
+  random_forest: {n_estimators: 100}
+
+setup:
+  DATA_PATH: outputs/example_panel.csv
+
+main:
+  target_options: internal_D_p
+  split: across_categories
+  tp_option: "2"
+  batch_mode: Single Target
+  visualization_mode: Ensemble Consensus + Best SHAP

@@ -1,0 +1,35 @@
+name: Equivalence with the published notebook
+
+# Runs the frozen v1.0.0 notebook (paper/) and the bpsp package on the same simulated
+# panel and requires matching results. Long-running, so on demand and weekly.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 4 * * 1"
+
+permissions:
+  contents: read
+
+jobs:
+  equivalence:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Install the environment v2.0.0 was verified in
+        run: pip install -e ".[dev]" -c requirements-lock.txt
+      - run: pytest -m slow -v --basetemp=equivalence-runs
+        env:
+          PYTHONHASHSEED: "0"
+      - uses: actions/upload-artifact@v7
+        if: always()
+        with:
+          name: equivalence-runs
+          path: |
+            equivalence-runs/**/progress.txt
+            equivalence-runs/**/out_*.txt
+            equivalence-runs/**/snapshots.json

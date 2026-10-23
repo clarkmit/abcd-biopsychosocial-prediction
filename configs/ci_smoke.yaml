@@ -1,0 +1,20 @@
+# Fast end-to-end check used by CI: the example panel with very small models.
+#   bpsp example-panel outputs/example_panel.csv --subjects 400
+#   bpsp run configs/ci_smoke.yaml
+stages: [main, base_learners]
+output_dir: outputs/ci
+
+model_overrides:
+  catboost: {iterations: 20}
+  xgboost: {n_estimators: 20}
+  random_forest: {n_estimators: 20}
+
+setup:
+  DATA_PATH: outputs/example_panel.csv
+
+main:
+  target_options: internal_D_p
+  split: across_categories
+  tp_option: "2"
+  batch_mode: Single Target
+  visualization_mode: No Visuals

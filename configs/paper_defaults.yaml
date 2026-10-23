@@ -1,0 +1,131 @@
+# Every setting at its default in the published notebook (v1.0.0, paper/).
+# Generated with:  bpsp init-config configs/paper_defaults.yaml
+# Copy this file, set setup.DATA_PATH to your merged ABCD panel (kept outside the repository),
+# then choose the stages and settings for the analysis you want to reproduce (docs/reproducing.md).
+
+stages:
+- main
+output_dir: outputs
+model_overrides: {}
+setup:
+  objective_subjective_spectrum: false
+  DATA_PATH: CLEAN_ABCD_5.1_panel_20241022.csv
+  VAL_N_OUTER: 5
+  VAL_N_BOOTSTRAP: 1000
+  ensemble_barplot_palette: rocket
+  ensemble_barplot_color: sienna
+  ensemble_heatmap_cmap: Spectral
+  ensemble_top_n: 15
+  ensemble_ylabel_fontsize: 10
+  ensemble_save_plots: true
+  ensemble_save_prefix: ensemble
+main:
+  target_options: parent_dep_increase_1.5sd
+  split: across_categories
+  tp_option: '2'
+  feature_tp_option: Match target
+  subgroup: Full Sample
+  ensemble_version: true
+  ensemble_type: stacking
+  skip_tabpfn: false
+  batch_mode: Single Target
+  run_all_grid: false
+  single_category_mode: false
+  isolate_combinations: false
+  isolate_category: Cognitive Task Parameters
+  visualization_mode: Ensemble Consensus + Best SHAP
+  run_validation_cells: true
+  deal_with_na_values: impute_median
+  hyperparameter_tuning: false
+  with_optuna: false
+  num_of_optuna_trials: 5
+  selection_method: None
+  conformal_prediction: false
+  quantile_segment: false
+  simple_test_model: false
+  model_type: lasso
+sankey:
+  show_sankey: true
+  sankey_top_features: 2
+  sankey_style: child_adhd_impcomp
+  sankey_landscape: false
+networks:
+  run_bootstrap_CI: false
+  run_centrality_stability: false
+  n_bootstrap: 1000
+diagnostics:
+  run_diversity_analysis: true
+  run_bootstrap_stability: true
+  run_learning_curves: true
+  run_shap_beeswarm: true
+  run_supplementary: true
+  show_scatter_matrix: true
+  top_n_scatter_pairs: 3
+  n_bootstraps: 100
+  top_k_features: 20
+  show_violin_plot: true
+  n_fractions: 10
+  n_repeats: 5
+  show_marginal_gains: true
+  top_n_shap: 25
+  show_weight_chart: true
+  use_display_names: true
+  run_effect_sizes: true
+  run_feature_overlap: true
+  run_prediction_diagnostics: true
+  top_k_overlap: 20
+  diagnostics_target: last
+nested_cv:
+  n_outer_folds: 10
+stratified:
+  n_bootstrap: 1000
+grouped_cv:
+  n_outer_folds: 5
+  robustness_mode: Family Only
+permutation:
+  n_permutations: 1000
+  n_outer_folds: 5
+stacking_audit:
+  n_outer_folds: 5
+baselines:
+  run_pca_baseline: true
+  run_temporal_holdout: true
+ablation:
+  run_binary_ablation: true
+  run_spectrum_ablation: true
+  run_domain_permutation: true
+  run_topk_ablation: true
+temporal_gradient:
+  run_temporal_gradient: true
+fairness:
+  frr_targets: all
+  frr_n_bootstrap: 1000
+  frr_min_group_n: 100
+  frr_min_group_pos: 10
+  frr_religion_grouping: affiliation
+  frr_include_service_attendance: true
+  frr_run_partial_corr: true
+  frr_include_site_in_partial: true
+  frr_make_plots: true
+calibration:
+  rcal_targets: all
+  rcal_n_bins: 10
+  rcal_bin_strategy: quantile
+  rcal_min_bin_n: 10
+  rcal_n_bootstrap: 1000
+  rcal_crossfit_folds: 5
+  rcal_heldout_calibrator: crossfit
+  rcal_include_nested_oof: true
+  rcal_include_regression: true
+  rcal_make_plots: true
+base_learners:
+  blp_targets: all
+  blp_gain_tolerance: 0.005
+  blp_make_plots: true
+grouped_importance:
+  gpi_targets: all
+  gpi_top_k_features: 30
+  gpi_cluster_r_threshold: 0.5
+  gpi_n_repeats: 5
+  gpi_include_domain_groups: true
+  gpi_make_plots: true
