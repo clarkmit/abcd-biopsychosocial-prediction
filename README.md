@@ -10,7 +10,7 @@ High-dimensional ensemble stacking machine learning pipeline for hierarchical, i
 
 Which of the wide range of currently available biopsychosocial measurements best predict hallmark psychiatric outcomes in adolescents and adults, and where do they converge or diverge in their predictive architecture? Full pipeline here organizes ~1,078 biopsychosocial variables extracted from the Adolescent Brain Cognitive Development (ABCD) Study, Release 5.1 (11,864 adolescents aged 9 to 14 and about 11,859 adult/parents), and uses a stacking machine learning ensemble to compare the hierarchical, interactive, concurrent, and prospective predictive capacities of a wide range of biological, psychological, social, and environmental measurement domains across multiple psychiatric and cognitive outcomes.
 
-Repository contains the analytic pipeline used in
+Repository contains analytic pipeline used in
 
 > Roberts, C. et al. *Psychiatry and Its Hierarchical & Dynamic Discontents: Biopsychosocial Prediction in Depression, Anxiety, ADHD, Social Relationships, and Cognition.* Under review at *Nature*.
 
@@ -61,7 +61,7 @@ Several categories (multimodal neuroimaging, experimental tasks, Fitbit) were on
 
 A run is setup followed by any sequence of stages. Each stage is one module of `src/bpsp/` and one cell of the published notebook ([Stages](https://clarkmit.github.io/abcd-biopsychosocial-prediction/stages/)).
 
-### Setup
+### Setup & Options
 
 * Variable registry: the categorized feature sets for adolescents and parents at every wave, and the outcome lists.
 * Circularity exclusions: a systematic per-target protocol removes tautological predictors (variables subsumed in the target), construct overlap that raters could plausibly conflate with the target, and plausible reverse-causation confounds. It is set up for all targets used in the paper and many more, in adolescents and parents, including possible intergenerational relationships.
@@ -69,7 +69,7 @@ A run is setup followed by any sequence of stages. Each stage is one module of `
 * Preprocessing: variables more than 70% missing are dropped at each wave, the data are split 70/30 (stratified for classification) before anything is fitted, and k-nearest-neighbor imputation and scaling are fit exclusively on the training partition. Outliers are clipped at 5 SD, and constant and duplicate columns are removed.
 * Natural language variable renaming: the analysis panel uses interpretable variable names (`data/variable_map.csv` gives each one's ABCD table and original name), and a display-name dictionary translates them into natural-language labels for figures.
 
-### Models
+### Modelling capacities 
 
 * Stacking ensemble: CatBoost, XGBoost and random forest base learners, plus TabPFN in within-category runs (auto-excluded across categories, whose feature counts typically exceed TabPFN's recommended d ≤ 500 ceiling). A linear (regression) or logistic (classification) meta-learner is fit on the base learners' out-of-fold predictions, their pairwise products and their mean. The main hyperparameters are fixed a priori in one dictionary (`PIPELINE_MODEL_CONFIGS`).
 * Runs: single targets or batch target bundles (for example "Child Dep Classification" or "F4: Depression & Anxiety Developmental Sweep"), any wave or all waves, concurrent or prospective prediction, within or across categories.
