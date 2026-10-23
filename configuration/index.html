@@ -1,0 +1,2449 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="High-dimensional ensemble stacking ML pipeline for hierarchical, interactive, and dynamic prediction of psychiatric, cognitive, and social outcomes in the ABCD Study">
+      
+      
+      
+        <link rel="canonical" href="https://clarkmit.github.io/abcd-biopsychosocial-prediction/configuration/">
+      
+      
+        <link rel="prev" href="../stages/">
+      
+      
+        <link rel="next" href="../equivalence/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Configuration - ABCD Biopsychosocial Prediction</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/_mkdocstrings.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#configuration" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="ABCD Biopsychosocial Prediction" class="md-header__button md-logo" aria-label="ABCD Biopsychosocial Prediction" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            ABCD Biopsychosocial Prediction
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Configuration
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/clarkmit/abcd-biopsychosocial-prediction" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    clarkmit/abcd-biopsychosocial-prediction
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="ABCD Biopsychosocial Prediction" class="md-nav__button md-logo" aria-label="ABCD Biopsychosocial Prediction" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    ABCD Biopsychosocial Prediction
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/clarkmit/abcd-biopsychosocial-prediction" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    clarkmit/abcd-biopsychosocial-prediction
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Getting started
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Getting started
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../installation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Installation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../quickstart/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quickstart
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The science
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    The science
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Concepts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../methods/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Methods in brief
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reproducing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reproducing the paper
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Using the pipeline
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Using the pipeline
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../stages/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Stages
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Configuration
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Configuration
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#settings-you-will-change-most" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Settings you will change most
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        setup
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#main" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        main
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sankey" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        sankey
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#networks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        networks
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#diagnostics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        diagnostics
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nested_cv" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        nested_cv
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stratified" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        stratified
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#grouped_cv" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        grouped_cv
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#permutation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        permutation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stacking_audit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        stacking_audit
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#baselines" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        baselines
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ablation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ablation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#temporal_gradient" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        temporal_gradient
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fairness" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        fairness
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#calibration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        calibration
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#base_learners" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        base_learners
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#grouped_importance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        grouped_importance
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quality
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Quality
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../equivalence/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Equivalence with v1.0.0
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../testing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Testing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../known_issues/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Known issues
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Data and responsible use
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Data and responsible use
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../data/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Data access and governance
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../model_card/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Model card
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    For developers
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    For developers
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../architecture/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Architecture
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    API reference
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../changelog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Changelog
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#settings-you-will-change-most" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Settings you will change most
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        setup
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#main" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        main
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sankey" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        sankey
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#networks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        networks
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#diagnostics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        diagnostics
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nested_cv" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        nested_cv
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stratified" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        stratified
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#grouped_cv" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        grouped_cv
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#permutation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        permutation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stacking_audit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        stacking_audit
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#baselines" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        baselines
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ablation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ablation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#temporal_gradient" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        temporal_gradient
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fairness" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        fairness
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#calibration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        calibration
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#base_learners" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        base_learners
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#grouped_importance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        grouped_importance
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Permanent link">&para;</a></h1>
+<p>A run is configured by one YAML file (or a <code>PipelineConfig</code> object). Every key is optional; missing keys keep the
+published defaults. <code>bpsp init-config FILE</code> writes a file with every setting.</p>
+<div class="highlight"><pre><span></span><code><span class="nt">stages</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="nv">main</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="nv">nested_cv</span><span class="p p-Indicator">]</span><span class="w">          </span><span class="c1"># stages to run after setup, in order</span>
+<span class="nt">output_dir</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">outputs/my_run</span><span class="w">         </span><span class="c1"># tables, figures, run.log, config.resolved.yaml</span>
+<span class="nt">model_overrides</span><span class="p">:</span><span class="w">                   </span><span class="c1"># optional hyperparameter overrides per base learner</span>
+<span class="w">  </span><span class="nt">catboost</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">{</span><span class="nt">iterations</span><span class="p">:</span><span class="w"> </span><span class="nv">300</span><span class="p p-Indicator">}</span>
+<span class="nt">setup</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">DATA_PATH</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">/secure/abcd/CLEAN_ABCD_5.1_panel.csv</span>
+<span class="nt">main</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">target_options</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">depress_D_p</span>
+<span class="w">  </span><span class="nt">split</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">within_categories</span>
+<span class="nt">nested_cv</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">n_outer_folds</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">10</span>
+</code></pre></div>
+<p>Setting names are identical to the form fields of the published notebook, so each one can be traced to the
+paper version. Settings with a fixed set of values are validated when the configuration is loaded.</p>
+<h2 id="settings-you-will-change-most">Settings you will change most<a class="headerlink" href="#settings-you-will-change-most" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>setup.DATA_PATH</code></td>
+<td>the merged analysis panel (keep it outside the repository)</td>
+</tr>
+<tr>
+<td><code>main.target_options</code></td>
+<td>the target of a single-target run</td>
+</tr>
+<tr>
+<td><code>main.batch_mode</code></td>
+<td>a bundle of targets run one after another, instead of <code>target_options</code></td>
+</tr>
+<tr>
+<td><code>main.split</code></td>
+<td><code>within_categories</code> (one model per measurement category) or <code>across_categories</code></td>
+</tr>
+<tr>
+<td><code>main.tp_option</code></td>
+<td>the wave of the target, <code>0</code> (baseline) to <code>4</code></td>
+</tr>
+<tr>
+<td><code>main.feature_tp_option</code></td>
+<td><code>Match target</code> for concurrent prediction, or an earlier wave for prospective prediction</td>
+</tr>
+<tr>
+<td><code>setup.objective_subjective_spectrum</code></td>
+<td>use the objective/subjective gradient instead of the measurement categories</td>
+</tr>
+<tr>
+<td><code>model_overrides</code></td>
+<td>base-learner hyperparameters for this run</td>
+</tr>
+<tr>
+<td><code>stages</code></td>
+<td>the stages to run after setup</td>
+</tr>
+</tbody>
+</table>
+<p>Every setting is listed below.</p>
+<h2 id="setup"><code>setup</code><a class="headerlink" href="#setup" title="Permanent link">&para;</a></h2>
+<p>Data location, shared validation settings and ensemble plot styling (notebook cells 4-5).</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>objective_subjective_spectrum</code></td>
+<td><code>False</code></td>
+<td>Replace the T0/T2 feature ontology with the objective/subjective measurement spectrum (notebook cell 3; used for Fig 4, Fex6 and S1.12). Off for all other analyses.</td>
+</tr>
+<tr>
+<td><code>DATA_PATH</code></td>
+<td><code>'CLEAN_ABCD_5.1_panel_20241022.csv'</code></td>
+<td>Merged multi-wave analysis panel (CSV). Keep ABCD data outside the repository.</td>
+</tr>
+<tr>
+<td><code>VAL_N_OUTER</code></td>
+<td><code>5</code></td>
+<td>Default number of outer folds used by validation helpers.</td>
+</tr>
+<tr>
+<td><code>VAL_N_BOOTSTRAP</code></td>
+<td><code>1000</code></td>
+<td>Default number of bootstrap resamples for confidence intervals.</td>
+</tr>
+<tr>
+<td><code>ensemble_barplot_palette</code></td>
+<td><code>'rocket'</code></td>
+<td>Colormap for feature-importance bars. "None" (or YAML null) uses a gradient of ensemble_barplot_color instead. Allowed: <code>Purples_r</code>, <code>Blues_r</code>, <code>Reds_r</code>, <code>YlOrBr_r</code>, <code>Greens_r</code>, <code>None</code>, <code>YlOrRd</code>, <code>YlGnBu</code>, ... (32 values).</td>
+</tr>
+<tr>
+<td><code>ensemble_barplot_color</code></td>
+<td><code>'sienna'</code></td>
+<td>Single color → gradient (only active when palette = None; auto-set per-target in batch mode). Allowed: <code>crimson</code>, <code>firebrick</code>, <code>tomato</code>, <code>darkorange</code>, <code>orange</code>, <code>gold</code>, <code>yellow</code>, <code>greenyellow</code>, ... (30 values).</td>
+</tr>
+<tr>
+<td><code>ensemble_heatmap_cmap</code></td>
+<td><code>'Spectral'</code></td>
+<td>Colormap for model-comparison heatmaps. Allowed: <code>YlOrRd</code>, <code>coolwarm</code>, <code>RdYlBu</code>, <code>viridis</code>, <code>plasma</code>, <code>inferno</code>, <code>magma</code>, <code>Blues</code>, ... (18 values).</td>
+</tr>
+<tr>
+<td><code>ensemble_top_n</code></td>
+<td><code>15</code></td>
+<td>Number of top features shown in the consensus importance, feature-importance and SHAP plots.</td>
+</tr>
+<tr>
+<td><code>ensemble_ylabel_fontsize</code></td>
+<td><code>10</code></td>
+<td>Font size of the feature labels in the consensus importance plot.</td>
+</tr>
+<tr>
+<td><code>ensemble_save_plots</code></td>
+<td><code>True</code></td>
+<td>Save the consensus importance plot to a file.</td>
+</tr>
+<tr>
+<td><code>ensemble_save_prefix</code></td>
+<td><code>'ensemble'</code></td>
+<td>File name prefix for the saved consensus importance plot.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="main"><code>main</code><a class="headerlink" href="#main" title="Permanent link">&para;</a></h2>
+<p>Main analysis runner: target, timepoint, feature split, batch mode (notebook cell 6).</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>target_options</code></td>
+<td><code>'parent_dep_increase_1.5sd'</code></td>
+<td>Outcome variable to predict (ignored when batch_mode ≠ Single Target). Allowed: <code>GAD_present</code>, <code>MDD_KSADS_C</code>, <code>OCD_present</code>, <code>adhd_D_p</code>, <code>anhedonia_B_k</code>, <code>anorexia_B_k</code>, <code>anxdisord_D_p</code>, <code>area_deprivation_idx</code>, ... (147 values).</td>
+</tr>
+<tr>
+<td><code>split</code></td>
+<td><code>'across_categories'</code></td>
+<td>across_categories = full predictor space; within_categories = loop over feature-set categories separately. Allowed: <code>across_categories</code>, <code>within_categories</code>.</td>
+</tr>
+<tr>
+<td><code>tp_option</code></td>
+<td><code>'2'</code></td>
+<td>ABCD assessment wave: 0 (baseline, ages 9-10), 1 (ages 10-11), 2 (ages 11-12), 3 (ages 12-13), 4 (ages 13-14). Allowed: <code>0</code>, <code>1</code>, <code>2</code>, <code>3</code>, <code>4</code>, <code>All</code>.</td>
+</tr>
+<tr>
+<td><code>feature_tp_option</code></td>
+<td><code>'Match target'</code></td>
+<td>Timepoint to draw features from. Match target = same wave as tp_option (default; preserves standard behavior). Set to a different wave for cross-timepoint prediction (e.g. T0 features → T2 target). Allowed: <code>Match target</code>, <code>0</code>, <code>1</code>, <code>2</code>, <code>3</code>, <code>4</code>.</td>
+</tr>
+<tr>
+<td><code>subgroup</code></td>
+<td><code>'Full Sample'</code></td>
+<td>Subsample filter. Full Sample = no filter. Allowed: <code>Full Sample</code>, <code>High ALE</code>, <code>High ALE + Severe Parent MH</code>, <code>Low ALE</code>, <code>Female</code>, <code>Male</code>.</td>
+</tr>
+<tr>
+<td><code>ensemble_version</code></td>
+<td><code>True</code></td>
+<td>Use 4-model stacking ensemble (True) or single base-learner (False, legacy).</td>
+</tr>
+<tr>
+<td><code>ensemble_type</code></td>
+<td><code>'stacking'</code></td>
+<td>stacking (reported in manuscript) or bagging (legacy, not recommended). Allowed: <code>bagging</code>, <code>stacking</code>.</td>
+</tr>
+<tr>
+<td><code>skip_tabpfn</code></td>
+<td><code>False</code></td>
+<td>Drop TabPFN from ensemble (~20-30% faster; auto-skipped for across_categories).</td>
+</tr>
+<tr>
+<td><code>batch_mode</code></td>
+<td><code>'Single Target'</code></td>
+<td>Run a predefined bundle of targets, overriding target_options. Single Target uses target_options. Allowed: <code>Single Target</code>, <code>Academic/Cognitive</code>, <code>ADHD/Impulsivity/Compulsivity</code>, <code>All Classification</code>, <code>All Manuscript Figures (F3-F6)</code>, <code>Child Classification -- All</code>, <code>Child Classification -- Anxiety</code>, <code>Child Classification -- Depression</code>, ... (45 values).</td>
+</tr>
+<tr>
+<td><code>run_all_grid</code></td>
+<td><code>False</code></td>
+<td>Full grid of every wave, subgroup, target and split (~840 runs); overrides the target, wave, subgroup and split settings.</td>
+</tr>
+<tr>
+<td><code>single_category_mode</code></td>
+<td><code>False</code></td>
+<td>Run only isolate_category (skip the full category loop).</td>
+</tr>
+<tr>
+<td><code>isolate_combinations</code></td>
+<td><code>False</code></td>
+<td>Run all pairwise feature-set combinations anchored on the selected category.</td>
+</tr>
+<tr>
+<td><code>isolate_category</code></td>
+<td><code>'Cognitive Task Parameters'</code></td>
+<td>Category to target (used by single_category_mode and isolate_combinations). Allowed: <code>None</code>, <code>Inter</code>, <code>Cognitive Task Parameters</code>, <code>Dynamic Cognitive Control Parameters</code>, <code>Delta Other Psychopathology</code>, <code>Other Personality Features</code>, <code>Medical/Somatic Problems</code>, <code>Sleep Problems</code>, ... (62 values).</td>
+</tr>
+<tr>
+<td><code>visualization_mode</code></td>
+<td><code>'Ensemble Consensus + Best SHAP'</code></td>
+<td>Plots generated during the analysis. All Visuals: importance bar plots and SHAP for all models, consensus, PDP and GAM. Ensemble Consensus + Best SHAP: ensemble comparison, consensus and SHAP for the best model. Ensemble Plots Only: model comparison charts (fastest with visuals). No Visuals: metrics only (fastest; for validation and batch runs). Allowed: <code>All Visuals</code>, <code>Ensemble Consensus + Best SHAP</code>, <code>Ensemble Plots Only</code>, <code>No Visuals</code>.</td>
+</tr>
+<tr>
+<td><code>run_validation_cells</code></td>
+<td><code>True</code></td>
+<td>Turn off to make the smoke_test, nested_cv, stratified, grouped_cv, permutation and stacking_audit stages skip their work.</td>
+</tr>
+<tr>
+<td><code>deal_with_na_values</code></td>
+<td><code>'impute_median'</code></td>
+<td>Strategy for missing values in train/test features. Allowed: <code>fill_with_zero</code>, <code>drop</code>, <code>impute_mean</code>, <code>impute_median</code>.</td>
+</tr>
+<tr>
+<td><code>hyperparameter_tuning</code></td>
+<td><code>False</code></td>
+<td>Search hyperparameters instead of using the fixed settings (slow; not used for the article). For the stacking ensemble the search needs with_optuna.</td>
+</tr>
+<tr>
+<td><code>with_optuna</code></td>
+<td><code>False</code></td>
+<td>Search the CatBoost settings with Optuna (requires hyperparameter_tuning).</td>
+</tr>
+<tr>
+<td><code>num_of_optuna_trials</code></td>
+<td><code>5</code></td>
+<td>Number of Optuna trials when with_optuna is on.</td>
+</tr>
+<tr>
+<td><code>selection_method</code></td>
+<td><code>'None'</code></td>
+<td>Feature selection before model fitting. None = skip. Allowed: <code>rfecv</code>, <code>interaction</code>, <code>h-stats</code>, <code>clustering</code>, <code>None</code>.</td>
+</tr>
+<tr>
+<td><code>conformal_prediction</code></td>
+<td><code>False</code></td>
+<td>Add conformal prediction intervals to outputs.</td>
+</tr>
+<tr>
+<td><code>quantile_segment</code></td>
+<td><code>False</code></td>
+<td>Segment predictions by target-variable quantile bins.</td>
+</tr>
+<tr>
+<td><code>simple_test_model</code></td>
+<td><code>False</code></td>
+<td>Replace ensemble with a single linear model (lasso or ridge).</td>
+</tr>
+<tr>
+<td><code>model_type</code></td>
+<td><code>'lasso'</code></td>
+<td>Linear model used when simple_test_model is on. Allowed: <code>lasso</code>, <code>ridge</code>.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="sankey"><code>sankey</code><a class="headerlink" href="#sankey" title="Permanent link">&para;</a></h2>
+<p>Sankey batch visualization (notebook cell 8).</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>show_sankey</code></td>
+<td><code>True</code></td>
+<td>Draw the Sankey diagrams. Off: the stage only lists the archived targets.</td>
+</tr>
+<tr>
+<td><code>sankey_top_features</code></td>
+<td><code>2</code></td>
+<td>Number of top consensus features drawn per target (15 in Fig 7).</td>
+</tr>
+<tr>
+<td><code>sankey_style</code></td>
+<td><code>'child_adhd_impcomp'</code></td>
+<td>Style preset: target grouping, colors, layout and which archived results are drawn (presets listed in <code>bpsp.reports.sankey</code>). <code>run_all_styles</code> draws and saves every preset.</td>
+</tr>
+<tr>
+<td><code>sankey_landscape</code></td>
+<td><code>False</code></td>
+<td>Landscape page layout for the diagrams.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="networks"><code>networks</code><a class="headerlink" href="#networks" title="Permanent link">&para;</a></h2>
+<p>Top-feature correlation and partial-correlation networks (notebook cell 9).</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>run_bootstrap_CI</code></td>
+<td><code>False</code></td>
+<td>Bootstrap confidence intervals for the network edge weights (slow).</td>
+</tr>
+<tr>
+<td><code>run_centrality_stability</code></td>
+<td><code>False</code></td>
+<td>Case-dropping stability of node centrality (slow).</td>
+</tr>
+<tr>
+<td><code>n_bootstrap</code></td>
+<td><code>1000</code></td>
+<td>Resamples for the edge-weight bootstrap and the centrality stability analysis.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="diagnostics"><code>diagnostics</code><a class="headerlink" href="#diagnostics" title="Permanent link">&para;</a></h2>
+<p>Model diagnostics (notebook cell 10).</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>run_diversity_analysis</code></td>
+<td><code>True</code></td>
+<td>Base-learner diversity: pairwise correlations of the base learners' predictions.</td>
+</tr>
+<tr>
+<td><code>run_bootstrap_stability</code></td>
+<td><code>True</code></td>
+<td>Bootstrap stability of the feature importance rankings.</td>
+</tr>
+<tr>
+<td><code>run_learning_curves</code></td>
+<td><code>True</code></td>
+<td>Learning curves: held-out performance against training set size.</td>
+</tr>
+<tr>
+<td><code>run_shap_beeswarm</code></td>
+<td><code>True</code></td>
+<td>SHAP beeswarm plots, per model and weighted by the ensemble.</td>
+</tr>
+<tr>
+<td><code>run_supplementary</code></td>
+<td><code>True</code></td>
+<td>Supplementary diagnostics: effect sizes, feature overlap across targets and prediction distributions.</td>
+</tr>
+<tr>
+<td><code>show_scatter_matrix</code></td>
+<td><code>True</code></td>
+<td>Scatter plots of predictions for the most diverse base-learner pairs.</td>
+</tr>
+<tr>
+<td><code>top_n_scatter_pairs</code></td>
+<td><code>3</code></td>
+<td>Number of base-learner pairs in those scatter plots.</td>
+</tr>
+<tr>
+<td><code>n_bootstraps</code></td>
+<td><code>100</code></td>
+<td>Bootstrap resamples for the importance stability analysis.</td>
+</tr>
+<tr>
+<td><code>top_k_features</code></td>
+<td><code>20</code></td>
+<td>Number of top features tracked in the importance stability analysis.</td>
+</tr>
+<tr>
+<td><code>show_violin_plot</code></td>
+<td><code>True</code></td>
+<td>Violin plot of the rank distributions of those features.</td>
+</tr>
+<tr>
+<td><code>n_fractions</code></td>
+<td><code>10</code></td>
+<td>Number of training set fractions, from 10% to 100%, in the learning curves.</td>
+</tr>
+<tr>
+<td><code>n_repeats</code></td>
+<td><code>5</code></td>
+<td>Repeats per training set fraction in the learning curves.</td>
+</tr>
+<tr>
+<td><code>show_marginal_gains</code></td>
+<td><code>True</code></td>
+<td>Plot the performance gained with each increase in training data.</td>
+</tr>
+<tr>
+<td><code>top_n_shap</code></td>
+<td><code>25</code></td>
+<td>Number of features in the ensemble-weighted SHAP beeswarm.</td>
+</tr>
+<tr>
+<td><code>show_weight_chart</code></td>
+<td><code>True</code></td>
+<td>Bar chart of mean absolute SHAP values beside the beeswarm.</td>
+</tr>
+<tr>
+<td><code>use_display_names</code></td>
+<td><code>True</code></td>
+<td>Natural-language labels instead of variable names in the diagnostics.</td>
+</tr>
+<tr>
+<td><code>run_effect_sizes</code></td>
+<td><code>True</code></td>
+<td>Effect size summary for the current target (part of the supplementary diagnostics).</td>
+</tr>
+<tr>
+<td><code>run_feature_overlap</code></td>
+<td><code>True</code></td>
+<td>Overlap of the top consensus features across targets, as Jaccard similarity.</td>
+</tr>
+<tr>
+<td><code>run_prediction_diagnostics</code></td>
+<td><code>True</code></td>
+<td>Distribution diagnostics of the ensemble's predictions.</td>
+</tr>
+<tr>
+<td><code>top_k_overlap</code></td>
+<td><code>20</code></td>
+<td>Number of top consensus features compared across targets.</td>
+</tr>
+<tr>
+<td><code>diagnostics_target</code></td>
+<td><code>'last'</code></td>
+<td><code>last</code> for the most recent target, or an archive key (e.g. <code>internal_D_p__tp2</code>) to diagnose another target of the batch.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="nested_cv"><code>nested_cv</code><a class="headerlink" href="#nested_cv" title="Permanent link">&para;</a></h2>
+<p>Outer-fold nested CV metrics and calibration, Supplement S1.4, S1.11.3 and S1.11.10 (notebook cell 12).</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>n_outer_folds</code></td>
+<td><code>10</code></td>
+<td>Number of outer folds (5 or 10 in the article).</td>
+</tr>
+</tbody>
+</table>
+<h2 id="stratified"><code>stratified</code><a class="headerlink" href="#stratified" title="Permanent link">&para;</a></h2>
+<p>Demographic-stratified performance (notebook cell 13).</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>n_bootstrap</code></td>
+<td><code>1000</code></td>
+<td>Bootstrap resamples for the subgroup confidence intervals.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="grouped_cv"><code>grouped_cv</code><a class="headerlink" href="#grouped_cv" title="Permanent link">&para;</a></h2>
+<p>Family-grouped and site-grouped cross-validation (notebook cell 14).</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>n_outer_folds</code></td>
+<td><code>5</code></td>
+<td>Number of GroupKFold folds.</td>
+</tr>
+<tr>
+<td><code>robustness_mode</code></td>
+<td><code>'Family Only'</code></td>
+<td>Family-grouped CV, site-grouped CV or both. Allowed: <code>Family Only</code>, <code>Site Only</code>, <code>Both</code>.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="permutation"><code>permutation</code><a class="headerlink" href="#permutation" title="Permanent link">&para;</a></h2>
+<p>Permutation testing and null distributions (notebook cell 15).</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>n_permutations</code></td>
+<td><code>1000</code></td>
+<td>Number of label permutations.</td>
+</tr>
+<tr>
+<td><code>n_outer_folds</code></td>
+<td><code>5</code></td>
+<td>Cross-validation folds used to score the CatBoost model on the true and the permuted labels.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="stacking_audit"><code>stacking_audit</code><a class="headerlink" href="#stacking_audit" title="Permanent link">&para;</a></h2>
+<p>Stacking audit: base-model contributions and leakage checks (notebook cell 16).</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>n_outer_folds</code></td>
+<td><code>5</code></td>
+<td>Number of outer folds in the audit.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="baselines"><code>baselines</code><a class="headerlink" href="#baselines" title="Permanent link">&para;</a></h2>
+<p>PCA baseline and temporal hold-out (notebook cell 17).</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>run_pca_baseline</code></td>
+<td><code>True</code></td>
+<td>Compare the original features with a PCA baseline.</td>
+</tr>
+<tr>
+<td><code>run_temporal_holdout</code></td>
+<td><code>True</code></td>
+<td>Train on earlier waves and test on later waves.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="ablation"><code>ablation</code><a class="headerlink" href="#ablation" title="Permanent link">&para;</a></h2>
+<p>Domain ablation and feature-domain analysis (notebook cell 18).</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>run_binary_ablation</code></td>
+<td><code>True</code></td>
+<td>Objective versus subjective ablation, with bootstrap confidence intervals.</td>
+</tr>
+<tr>
+<td><code>run_spectrum_ablation</code></td>
+<td><code>True</code></td>
+<td>Ablation over the levels of the objective/subjective gradient, one domain at a time.</td>
+</tr>
+<tr>
+<td><code>run_domain_permutation</code></td>
+<td><code>True</code></td>
+<td>Domain permutation importance: each domain shuffled as a block on the full model.</td>
+</tr>
+<tr>
+<td><code>run_topk_ablation</code></td>
+<td><code>True</code></td>
+<td>Top-K ablation curve: the highest-ranked features removed progressively.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="temporal_gradient"><code>temporal_gradient</code><a class="headerlink" href="#temporal_gradient" title="Permanent link">&para;</a></h2>
+<p>Temporal gradient testing (notebook cell 20).</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>run_temporal_gradient</code></td>
+<td><code>True</code></td>
+<td>Run the analysis. Off: the stage is skipped.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="fairness"><code>fairness</code><a class="headerlink" href="#fairness" title="Permanent link">&para;</a></h2>
+<p>Race/ethnicity and religion fairness, partial-correlation confound check (notebook cell 21).</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>frr_targets</code></td>
+<td><code>'all'</code></td>
+<td>Comma-separated archive keys or target names (e.g. <code>internal_D_p__tp2, top_10_depression</code>), or <code>all</code>.</td>
+</tr>
+<tr>
+<td><code>frr_n_bootstrap</code></td>
+<td><code>1000</code></td>
+<td>Bootstrap resamples for the group estimates, their differences and the partial correlations.</td>
+</tr>
+<tr>
+<td><code>frr_min_group_n</code></td>
+<td><code>100</code></td>
+<td>Religious affiliations with fewer test participants are pooled; any group still this small is listed but not scored.</td>
+</tr>
+<tr>
+<td><code>frr_min_group_pos</code></td>
+<td><code>10</code></td>
+<td>Classification: groups with fewer positive or negative cases are listed but not scored.</td>
+</tr>
+<tr>
+<td><code>frr_religion_grouping</code></td>
+<td><code>'affiliation'</code></td>
+<td><code>affiliation</code> = named preferences (small ones pooled); <code>broad tradition</code> = Christian / other religion / atheist or agnostic / nothing in particular. Allowed: <code>affiliation</code>, <code>broad tradition</code>.</td>
+</tr>
+<tr>
+<td><code>frr_include_service_attendance</code></td>
+<td><code>True</code></td>
+<td>Also stratify by attendance at religious services.</td>
+</tr>
+<tr>
+<td><code>frr_run_partial_corr</code></td>
+<td><code>True</code></td>
+<td>Run the partial-correlation confound check (part 2).</td>
+</tr>
+<tr>
+<td><code>frr_include_site_in_partial</code></td>
+<td><code>True</code></td>
+<td>Include site in the extended confound set of that check.</td>
+</tr>
+<tr>
+<td><code>frr_make_plots</code></td>
+<td><code>True</code></td>
+<td>Draw the forest plots and the across-target difference map.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="calibration"><code>calibration</code><a class="headerlink" href="#calibration" title="Permanent link">&para;</a></h2>
+<p>Calibration check and Platt/isotonic recalibration (notebook cell 22).</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>rcal_targets</code></td>
+<td><code>'all'</code></td>
+<td>Comma-separated archive keys or target names (e.g. <code>internal_D_p__tp2, top_10_depression</code>), or <code>all</code>.</td>
+</tr>
+<tr>
+<td><code>rcal_n_bins</code></td>
+<td><code>10</code></td>
+<td>Number of bins for ECE and the reliability diagrams.</td>
+</tr>
+<tr>
+<td><code>rcal_bin_strategy</code></td>
+<td><code>'quantile'</code></td>
+<td><code>quantile</code> = equal-count bins (recommended for 2-10% base rates); <code>uniform</code> = equal-width bins. Allowed: <code>quantile</code>, <code>uniform</code>.</td>
+</tr>
+<tr>
+<td><code>rcal_min_bin_n</code></td>
+<td><code>10</code></td>
+<td>Bins with fewer cases are not drawn (they still count in ECE).</td>
+</tr>
+<tr>
+<td><code>rcal_n_bootstrap</code></td>
+<td><code>1000</code></td>
+<td>Bootstrap resamples for the Brier score confidence interval.</td>
+</tr>
+<tr>
+<td><code>rcal_crossfit_folds</code></td>
+<td><code>5</code></td>
+<td>Folds for cross-fitting the calibrators within the held-out set.</td>
+</tr>
+<tr>
+<td><code>rcal_heldout_calibrator</code></td>
+<td><code>'crossfit'</code></td>
+<td><code>crossfit</code> = calibrators cross-fitted within the held-out set; <code>nested_oof</code> = fitted on the nested_cv stage's out-of-fold probabilities. Allowed: <code>crossfit</code>, <code>nested_oof</code>.</td>
+</tr>
+<tr>
+<td><code>rcal_include_nested_oof</code></td>
+<td><code>True</code></td>
+<td>Also evaluate the nested-CV out-of-fold probabilities, when the nested_cv stage has run in this session.</td>
+</tr>
+<tr>
+<td><code>rcal_include_regression</code></td>
+<td><code>True</code></td>
+<td>Include regression targets (calibration slope and intercept).</td>
+</tr>
+<tr>
+<td><code>rcal_make_plots</code></td>
+<td><code>True</code></td>
+<td>Draw the calibration figures.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="base_learners"><code>base_learners</code><a class="headerlink" href="#base_learners" title="Permanent link">&para;</a></h2>
+<p>Base learners vs stacked ensemble on held-out data (notebook cell 23).</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>blp_targets</code></td>
+<td><code>'all'</code></td>
+<td>Comma-separated archive keys or target names (e.g. <code>internal_D_p__tp2, top_10_depression</code>), or <code>all</code>.</td>
+</tr>
+<tr>
+<td><code>blp_gain_tolerance</code></td>
+<td><code>0.005</code></td>
+<td>The ensemble counts as "matching" the best base learner if within this margin.</td>
+</tr>
+<tr>
+<td><code>blp_make_plots</code></td>
+<td><code>True</code></td>
+<td>Draw the comparison figure.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="grouped_importance"><code>grouped_importance</code><a class="headerlink" href="#grouped_importance" title="Permanent link">&para;</a></h2>
+<p>Correlation-aware grouped permutation importance (notebook cell 24).</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>gpi_targets</code></td>
+<td><code>'all'</code></td>
+<td>Comma-separated archive keys or target names (e.g. <code>internal_D_p__tp2, top_10_depression</code>), or <code>all</code>.</td>
+</tr>
+<tr>
+<td><code>gpi_top_k_features</code></td>
+<td><code>30</code></td>
+<td>Number of top features (by weighted consensus importance) clustered and tested.</td>
+</tr>
+<tr>
+<td><code>gpi_cluster_r_threshold</code></td>
+<td><code>0.5</code></td>
+<td>Features join a cluster when their average /Spearman r/ is at least this.</td>
+</tr>
+<tr>
+<td><code>gpi_n_repeats</code></td>
+<td><code>5</code></td>
+<td>Permutation repeats per feature or group.</td>
+</tr>
+<tr>
+<td><code>gpi_include_domain_groups</code></td>
+<td><code>True</code></td>
+<td>Also shuffle the measurement domains defined by the ablation stage (it must have run in this session).</td>
+</tr>
+<tr>
+<td><code>gpi_make_plots</code></td>
+<td><code>True</code></td>
+<td>Draw the figures.</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.sections", "navigation.top", "content.code.copy", "search.highlight"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>
