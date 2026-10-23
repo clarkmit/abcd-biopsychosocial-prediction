@@ -8,21 +8,21 @@
 
 High-dimensional ensemble stacking machine learning pipeline for hierarchical, interactive, and dynamic prediction of psychiatric, cognitive, and social outcomes in the ABCD Study.
 
-Which of the wide range of currently available biopsychosocial measurements best predict hallmark psychiatric outcomes in adolescents and adults, and where do they converge or diverge in their predictive architecture? The pipeline organizes ~1,078 biopsychosocial variables extracted from the Adolescent Brain Cognitive Development (ABCD) Study, Release 5.1 (11,864 adolescents aged 9 to 14 and about 11,859 parents and caregivers aged 23 to 75), and uses a stacking machine learning ensemble to compare the hierarchical, interactive, concurrent, and prospective predictive capacities of a wide range of biological, psychological, social, and environmental measurement domains across multiple psychiatric and cognitive outcomes.
+Which of the wide range of currently available biopsychosocial measurements best predict hallmark psychiatric outcomes in adolescents and adults, and where do they converge or diverge in their predictive architecture? Full pipeline here organizes ~1,078 biopsychosocial variables extracted from the Adolescent Brain Cognitive Development (ABCD) Study, Release 5.1 (11,864 adolescents aged 9 to 14 and about 11,859 adult/parents), and uses a stacking machine learning ensemble to compare the hierarchical, interactive, concurrent, and prospective predictive capacities of a wide range of biological, psychological, social, and environmental measurement domains across multiple psychiatric and cognitive outcomes.
 
-This repository contains the analytic pipeline used in
+Repository contains the analytic pipeline used in
 
 > Roberts, C. et al. *Psychiatry and Its Hierarchical & Dynamic Discontents: Biopsychosocial Prediction in Depression, Anxiety, ADHD, Social Relationships, and Cognition.* Under review at *Nature*.
 
 ![Fig 5 of the article: within-category performance for adolescent anxiety and low mood/depression](docs/assets/fig5_within_category.png)
 
-*Fig 5 of the article: within-category ensemble meta-model performance (R²) for adolescent anxiety and hallmark low-mood/depression features in each biopsychosocial measurement category, at every available wave from age 9 to 13. Feature sets from age 9 were also used to predict age 13 outcomes.*
+*Fig 5 of the article: within-category ensemble meta-model predictive performance (R²) for adolescent anxiety and hallmark low-mood/depression outcomes hierarchically compared using feature-engineered parcellated biopsychosocial measurement categories, at every available wave from age 9 to 13. Feature sets from age 9 were also used to prospectively predict age 13 outcomes.*
 
 ![Fig 7 of the article: across-category Sankey diagrams for five adult targets](docs/assets/fig7_across_category_sankey.png)
 
-*Fig 7 of the article: across-category ensemble performance and the top 15 consensus-weighted features for five adult targets at baseline, 2-year and 4-year follow-up. Ribbon width and opacity reflect weighted ensemble importance, and shared features are annotated (nT).*
+*Fig 7 of the article: full across-category ensemble performance (after circular features removed) showing top 15 consensus-weighted features for five adult targets at baseline, 2-year and 4-year follow-up. Ribbon width and opacity reflect weighted ensemble importance, and shared features are annotated (nT).*
 
-## Quick start
+## Quick-start
 
 Requirements: Python 3.11 to 3.13. A laptop CPU is enough.
 
@@ -39,7 +39,7 @@ The run writes tables, figures and `run.log` to `outputs/demo/`. In `run.log`, t
 
 ## Feature sets and targets
 
-Feature sets are organized for both across- and within-category analysis, using a diverse ontology of theoretically driven, commonly used, or potentially informative categories (37 for adolescents and 32 for parents over five waves, T0 to T4), matched to each wave's data acquisition scope:
+Feature sets are organized for both across- and within-category analysis, using a diverse ontology of theoretically driven, commonly used, or potentially informative categories (37 for adolescents and 32 for parents over five waves, T0 to T4), matched to each wave's data acquisition scope/availability:
 
 * Biological: multimodal neuroimaging (structural MRI morphometry, DTI, resting-state fMRI, task fMRI from MID, SST and N-back), ancestral genetic principal components, Fitbit-derived physical activity and physiology, pubertal and somatic measures.
 * Psychological: experimental cognitive assessments (NIH Toolbox, Stop-Signal, N-back, MID, RAVLT, Little Man Task, Game of Dice) including hierarchical Bayesian individual-level PRAD parameters, personality traits, emotion regulation style, coextensive individual and familial psychopathology dimensions (CBCL, ASR, KSADS), sleep.
@@ -49,8 +49,8 @@ Feature sets are organized for both across- and within-category analysis, using 
 
 Several categories (multimodal neuroimaging, experimental tasks, Fitbit) were only collected in adolescents, and parent self-report was not collected at T1 or T3. Targets with circularity exclusions set up include:
 
-* Hallmark psychiatric dimensions: depression, anxiety, ADHD, externalizing, internalizing and social problems (child CBCL and parent ASR), and more specific items such as impulsivity and compulsivity.
-* The higher-order internalizing and externalizing spectra in children and parents across all available waves.
+* Hallmark psychiatric dimensions: depression, anxiety, ADHD, externalizing, internalizing and social problems (child CBCL and parent ASR), and many other more specific items such as impulsivity and compulsivity.
+* Higher-order internalizing and externalizing spectra in children and parents across all available waves.
 * Multiple depression operationalizations: dimensional syndrome and primary-features-only composites, top 5th and 10th percentile severity, Reliable Change Index (1.7, 1.96 and 2.3) and standardized-difference (1.5 and 2 SD) change classifications, and KSADS-derived symptom and diagnostic targets.
 * 11 theoretically derived depression subtypes generated from permutations of CBCL items sharing the primary anhedonia/sadness core.
 * Contrasting non-psychopathological outcomes: cognitive task performance, academic grades, weight, combined family income and technology use.
